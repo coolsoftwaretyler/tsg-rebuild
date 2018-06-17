@@ -2,3 +2,20 @@ baseURL = "https://tsg.netlify.com/"
 languageCode = "en-us"
 title = "THC Staffing Group | The Revolution is Hiring"
 theme = "tsg"
+
+## Main Menu
+  [[menu.main]]
+    name = "About"
+    weight = 100
+    identifier = "about"
+    url = "/about/"
+  [[menu.main]]
+    name = "Employers"
+    identifier = "employers"
+    weight = 200
+    url = "/employers/"
+  [[menu.main]]
+    name = "Candidates"
+    identifier = "candidates"
+    weight = 300
+    url = "/candidates/"
