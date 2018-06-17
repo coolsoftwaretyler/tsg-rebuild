@@ -1,3 +1,4 @@
+baseURL = "https://tsg.netlify.com/"
 languageCode = "en-us"
 title = "THC Staffing Group | The Revolution is Hiring"
 theme = "tsg"
