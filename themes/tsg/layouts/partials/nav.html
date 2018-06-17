@@ -8,7 +8,7 @@
     <ul class="navbar-nav mr-auto">
       {{ if .Site.Menus.main }}
         {{ range sort .Site.Menus.main }}
-        <li class="nav-item"><a class="nav-link" href="{{ .URL }}">{{ .Name }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://tsg.netlify.com{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
       {{ end }}
     </ul>
