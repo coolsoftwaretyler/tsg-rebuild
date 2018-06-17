@@ -4,8 +4,13 @@
     <meta charset="utf-8">
 
     <base href="{{ .Site.BaseURL }}">
-    <title> {{ .Title }} : spf13.com </title>
+    <title> {{ .Site.Title }} </title>
     <link rel="canonical" href="{{ .Permalink }}">
     {{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
+    <!-- Local Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Local Bootstrap JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body lang="en">
