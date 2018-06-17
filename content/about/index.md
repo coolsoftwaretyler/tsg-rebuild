@@ -1,3 +1,4 @@
 +++
 type="about"
+layout="about"
 +++
