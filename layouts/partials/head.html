@@ -1,162 +1,168 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
+  <meta charset="utf-8">
 
-    <base href="{{ .Site.BaseURL }}">
-    <title> {{ .Site.Title }} </title>
+  <base href="{{ .Site.BaseURL }}">
+  <title> {{ .Site.Title }} </title>
 
-    <link rel="canonical" href="{{ .Permalink }}">
-    {{ if .RSSLink }}<link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
+  <link rel="canonical" href="{{ .Permalink }}"> {{ if .RSSLink }}
+  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Title }}" />{{ end }}
 
-    <!-- Local Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Local Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <!-- Custom CSS - Mostly Bootstrap Overrides -->
-    <link rel="stylesheet" href="css/custom.css">
+  <!-- Custom CSS - Mostly Bootstrap Overrides -->
+  <link rel="stylesheet" href="css/custom.css">
 
-    <!-- Inline CSS for speed -->
+  <!-- Inline CSS for speed -->
 
 
-      <style>
-        * {
-          font-family: 'open sans', sans-serif;
-        }
+  <style>
+    * {
+      font-family: 'open sans', sans-serif;
+    }
 
-        h1 {
-          text-transform: uppercase;
-        }
+    h1 {
+      text-transform: uppercase;
+    }
 
-        .grid {
-          display: grid;
-          grid-template-columns: repeat(12, [col-start] 1fr);
-        }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, [col-start] 1fr);
+    }
 
-        header,
-        footer,
-        .lead-text,
-        .for-employers,
-        .need-employees,
-        .we-know,
-        .fast-and-reliable,
-        .stock-img-1,
-        .for-candidates,
-        .stock-img-2,
-        .diversity-lead,
-        .diversity-long,
-        .quote,
-        .different,
-        .instagram,
-        .testimonials,
-        .hero-img,
-        .services,
-        .big-text,
-        .diversity,
-        .our-process,
-        .resume-reviews,
-        .application-form
-         {
-          grid-column: 1 / -1;
+    header,
+    footer,
+    .lead-text,
+    .for-employers,
+    .need-employees,
+    .we-know,
+    .fast-and-reliable,
+    .stock-img-1,
+    .for-candidates,
+    .stock-img-2,
+    .diversity-lead,
+    .diversity-long,
+    .quote,
+    .different,
+    .instagram,
+    .testimonials,
+    .hero-img,
+    .services,
+    .big-text,
+    .diversity,
+    .our-process,
+    .resume-reviews,
+    .application-form {
+      grid-column: 1 / -1;
 
-        }
+    }
 
-        .hero-img-1 {
-          grid-column: 1 / 7;
-        }
+    .hero-img-1 {
+      grid-column: 1 / 7;
+    }
 
-        .hero-img-2 {
-          grid-column: 7 / -1;
-        }
+    .hero-img-2 {
+      grid-column: 7 / -1;
+    }
 
-        .lead-text {
-          text-align: center;
-          padding: 10%;
-        }
+    .lead-text {
+      text-align: center;
+      padding: 10%;
+    }
 
-        .for-employers {
-          background-color: gray;
-        }
+    .for-employers {
+      background-color: gray;
+    }
 
-        .need-employees,
-        .fast-and-reliable {
-          background-color: blue;
-        }
+    .need-employees,
+    .fast-and-reliable {
+      background-color: blue;
+    }
 
-        .we-know {
-          background-color: green;
-        }
+    .we-know {
+      background-color: green;
+    }
 
-        .for-employers, .need-employees, .fast-and-reliable, .we-know {
-          padding: 10%;
-        }
+    .for-employers,
+    .need-employees,
+    .fast-and-reliable,
+    .we-know {
+      padding: 10%;
+    }
 
-        .quote {
-          background-color: teal;
-        }
+    .quote {
+      background-color: teal;
+    }
 
-        .ticker-1,
-        .ticker-2,
-        .ticker-3,
-        .ticker-4 {
-          background-color: purple;
-        }
+    .ticker-1,
+    .ticker-2,
+    .ticker-3,
+    .ticker-4 {
+      background-color: purple;
+    }
 
-        .ticker-1 {
-          grid-column: 3 / 5;
-        }
+    .ticker-1 {
+      grid-column: 3 / 5;
+    }
 
-        .ticker-2 {
-          grid-column: 5 / 7;
-        }
+    .ticker-2 {
+      grid-column: 5 / 7;
+    }
 
-        .ticker-3 {
-          grid-column: 7 / 9;
-        }
+    .ticker-3 {
+      grid-column: 7 / 9;
+    }
 
-        .ticker-4 {
-          grid-column: 9 / 11;
-        }
+    .ticker-4 {
+      grid-column: 9 / 11;
+    }
 
-        @media all and (min-width: 700px) {
+    @media all and (min-width: 700px) {
 
-          .for-employers {
-            grid-column: 1 / 7;
-          }
+      .for-employers {
+        grid-column: 1 / 7;
+      }
 
-          .need-employees {
-            grid-column: 7 / 9;
-          }
+      .need-employees {
+        grid-column: 7 / 9;
+      }
 
-          .we-know {
-            grid-column: 9 / 11;
-          }
-          .fast-and-reliable {
-            grid-column: 11 / 13;
-          }
+      .we-know {
+        grid-column: 9 / 11;
+      }
+      .fast-and-reliable {
+        grid-column: 11 / 13;
+      }
 
-          .stock-img-1, .diversity-lead {
-            grid-column: 1 / 7;
-          }
+      .stock-img-1,
+      .diversity-lead {
+        grid-column: 1 / 7;
+      }
 
-          .for-candidates, .diversity-long {
-            grid-column: 7 / 13;
-          }
-          .our-process {
-            grid-column: 1 / 7;
-          }
+      .for-candidates,
+      .diversity-long {
+        grid-column: 7 / 13;
+      }
+      .our-process {
+        grid-column: 1 / 7;
+      }
 
-          .openings {
-            grid-column: 7 / 13;
-          }
+      .openings {
+        grid-column: 7 / 13;
+      }
 
-          .resume-reviews {
-            grid-column: 1 / 6;
-          }
+      .resume-reviews {
+        grid-column: 1 / 6;
+      }
 
-          .resume-picture {
-            grid-column: 6 / 13
-          }
-        }
-      </style>
+      .resume-picture {
+        grid-column: 6 / 13
+      }
+    }
+  </style>
 </head>
+
 <body lang="en">
