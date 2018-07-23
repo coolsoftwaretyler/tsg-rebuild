@@ -11,6 +11,14 @@
   </url>
   
   <url>
+    <loc>https://tsg.netlify.com/candidates/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tsg.netlify.com/employers/</loc>
+  </url>
+  
+  <url>
     <loc>https://tsg.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
