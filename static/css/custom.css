@@ -88,7 +88,9 @@ h1, .newbie-quote h2 {
 .for-candidates,
 .diversity-long,
 .big-text,
-.diversity-lead {
+.diversity-lead,
+.newbie-quote,
+.testimonial_para {
   padding: 1.5em;
 }
 
@@ -110,6 +112,10 @@ h1, .newbie-quote h2 {
 /* Navbar styles */
 .navbar-brand img {
   max-width: 75%;
+}
+
+.navbar-brand {
+  max-width: 50%;
 }
 
 @media all and (min-width: 700px) {
