@@ -1,16 +1,139 @@
 
 {{ partial "head.html" . }}
+<style>
+  * {
+    font-family: 'open sans', sans-serif;
+  }
 
+  h1 {
+    text-transform: uppercase;
+  }
+
+  footer {
+    padding: 1.5em;
+  }
+
+  footer > h6 {
+    float: right;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+  }
+
+  header,
+  footer,
+  .application-form,
+  .big-text,
+  .diversity-lead,
+  .diversity-long,
+  .fast-and-reliable,
+  .for-candidates,
+  .for-employers,
+  .founders-pic,
+  .instagram,
+  .hero-img,
+  .meet-the-team,
+  .need-employees,
+  .our-process,
+  .our-story,
+  .resume-reviews,
+  .stock-img-1,
+  .services,
+  .stock-img-2,
+  .testimonials,
+  .we-know {
+    grid-column: 1 / -1;
+  }
+
+  .hero-img-1 {
+    grid-column: 1 / 7;
+  }
+
+  .hero-img-2 {
+    grid-column: 7 / -1;
+  }
+
+  .for-employers,
+  .need-employees,
+  .fast-and-reliable,
+  .we-know {
+    padding: 1.5em;
+  }
+
+  .ticker-1 {
+    grid-column: 3 / 5;
+  }
+
+  .ticker-2 {
+    grid-column: 5 / 7;
+  }
+
+  .ticker-3 {
+    grid-column: 7 / 9;
+  }
+
+  .ticker-4 {
+    grid-column: 9 / 11;
+  }
+
+  @media all and (min-width: 700px) {
+
+    .for-employers {
+      grid-column: 1 / 7;
+    }
+
+    .need-employees {
+      grid-column: 7 / 9;
+    }
+
+
+    .fast-and-reliable {
+      grid-column: 11 / 13;
+    }
+
+    .stock-img-1,
+    .diversity-lead {
+      grid-column: 1 / 7;
+    }
+
+    .for-candidates,
+    .diversity-long {
+      grid-column: 7 / 13;
+    }
+
+    .our-process {
+      grid-column: 1 / 7;
+    }
+
+    .openings {
+      grid-column: 7 / 13;
+    }
+
+    .resume-reviews {
+      grid-column: 1 / 6;
+    }
+
+    .resume-picture {
+      grid-column: 6 / 13
+    }
+    .we-know {
+      grid-column: 9 / 11;
+    }
+  }
+</style>
+<div class="container">
 <div class="grid">
 
 {{ partial "nav.html" . }}
 
   <div class="hero-img-1">
-    Hero Image One
+  <img src="img/home/Staffers.jpg" />
   </div>
 
   <div class="hero-img-2">
-    Hero Image Two
+    <img src="img/home/Recruiting.jpg" />
   </div>
 
   <div class="big-text">
@@ -83,5 +206,5 @@
   </div>
 
 {{ partial "testimonials.html" . }}
-
+</div>
 {{ partial "footer.html" . }}
