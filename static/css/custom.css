@@ -73,6 +73,13 @@ h1, .newbie-quote h2 {
   background-color: #42c0b5;
 }
 
+.ticker-wrapper {
+  background-color: #f9fafc;
+  border-bottom-color: #B875C1;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+
 /* Padding */
 .for-employers,
 .need-employees,
