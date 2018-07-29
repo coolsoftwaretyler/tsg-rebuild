@@ -1,9 +1,7 @@
 
 {{ partial "head.html" . }}
 <style>
-  * {
-    font-family: 'open sans', sans-serif;
-  }
+
 
   h1 {
     text-transform: uppercase;
@@ -41,21 +39,16 @@
   .our-process,
   .our-story,
   .resume-reviews,
-  .stock-img-1,
+  .for-candidates-img,
   .services,
-  .stock-img-2,
+  .diversity-img,
   .testimonials,
   .we-know {
     grid-column: 1 / -1;
   }
 
 
-  .for-employers,
-  .need-employees,
-  .fast-and-reliable,
-  .we-know {
-    padding: 1.5em;
-  }
+
 
   .ticker-1 {
     grid-column: 3 / 5;
@@ -96,7 +89,7 @@
       grid-column: 11 / 13;
     }
 
-    .stock-img-1,
+    .for-candidates-img,
     .diversity-lead {
       grid-column: 1 / 7;
     }
@@ -147,8 +140,8 @@
 
 {{ partial "for-employers.html" . }}
 
-  <div class="stock-img-1">
-    Stock Image One
+  <div class="for-candidates-img">
+    <img src="img/home/for-candidates.jpg" width="100%" />
   </div>
 
   <div class="for-candidates">
@@ -158,8 +151,8 @@
       Or if you’re already involved in the industry, we can accelerate your career path. When we see an opportunity that might fit your skills and interests, we will contact you for an interview.</p>
   </div>
 
-  <div class="stock-img-2">
-    Stock Image Two
+  <div class="diversity-img">
+    <img src="img/home/diversity.jpg" width="100%" />
   </div>
 
   <div class="diversity-lead">

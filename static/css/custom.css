@@ -1,3 +1,35 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+/* Body styles */
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+  font-size: 1.875rem;
+  text-align: center;
+}
+
+.for-employers-wrapper h1, .for-candidates h1 {
+  text-align: left;
+}
+
+.for-employers-wrapper p, .for-candidates p {
+  font-size: 1.125rem;
+  text-align: left;
+}
+
+.for-employers-wrapper span, .for-candidates span {
+  text-align: left;
+}
+
+
+span {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+}
 /* Sticky footer */
 .footer {
   position: absolute;
@@ -6,4 +38,36 @@
   height: 60px; /* Set the fixed height of the footer here */
   line-height: 60px; /* Vertically center the text there */
   background-color: #f5f5f5;
+}
+
+/* Header styles */
+h1 {
+  color: #1c746c;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+/* Background styles */
+
+.for-employers, .for-candidates {
+  background-color: #cccccc;
+}
+
+.need-employees, .fast-and-reliable {
+  background-color: #97cec9;
+}
+
+.we-know {
+  background-color: #86ADA9;
+}
+
+/* Padding */
+.for-employers,
+.need-employees,
+.fast-and-reliable,
+.we-know,
+.for-candidates {
+  padding: 1.5em;
 }
