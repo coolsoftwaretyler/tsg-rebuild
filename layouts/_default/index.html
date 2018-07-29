@@ -16,6 +16,7 @@
   .for-employers,
   .founders-pic,
   .instagram,
+  .index-lead-text,
   .hero-img,
   .hero-img-1,
   .hero-img-2,
@@ -102,6 +103,12 @@
       grid-column: 9 / 11;
     }
   }
+
+  .diversity-lead span {
+    text-transform: uppercase;
+    color:#42c0B5;
+    font-weight: 700;
+  }
 </style>
 {{ partial "nav.html" . }}
 <div class="grid">
@@ -113,7 +120,7 @@
     <img src="img/home/Recruiting.jpg" width="100%" />
   </div>
 
-  <div class="big-text">
+  <div class="index-lead-text">
     <h1>The Revolution is Hiring</h1>
     <p>THC Staffing Group is a boutique recruitment firm dedicated to serving the cannabis industry. Save time advertising, recruiting and sifting through applications — we’ll find you the candidate with the right skills from our large and diverse pool of
       qualified applicants. As our reputations demonstrate, we care about this industry; we want you to be successful.</p>
@@ -126,10 +133,11 @@
   </div>
 
   <div class="for-candidates">
-    <span>looking for a new career?</span>
+    <span class="fancy">looking for a new career?</span>
     <h1>FOR CANDIDATES</h1>
     <p>Would you like to work in one of the fastest growing, most exciting new industries in America? When top cannabis companies need their next rock star, they turn to us. If our clients are looking for someone like you, we can help you get your start.
       Or if you’re already involved in the industry, we can accelerate your career path. When we see an opportunity that might fit your skills and interests, we will contact you for an interview.</p>
+      <button type="button" class="btn btn-primary tsg-btn">Find a career</button>
   </div>
 
   <div class="diversity-img">
@@ -140,6 +148,7 @@
     <h1>FOCUSED ON DIVERSITY & INCLUSION</h1>
     <p>Through our access to a deep pool of qualified and highly diverse candidates, we maintain a professional commitment to the continued successful growth of the American cannabis industry. We focus solely on the cannabis industry, including dispensaries,
       cultivation centers, ancillary businesses or nonprofit organizations focused on drug policy.</p>
+      <span>Learn more about us ></span>
   </div>
 
   <div class="diversity-long">
@@ -182,5 +191,5 @@
 
   <div class="instagram">
   </div>
-  
+
   {{ partial "testimonials.html" . }} {{ partial "footer.html" . }}
