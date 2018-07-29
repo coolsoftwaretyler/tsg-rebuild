@@ -27,6 +27,14 @@ p {
   font-family: 'Playfair Display', serif;
   font-style: italic;
 }
+
+/* Index styles */
+.index-diversity-lead span {
+  text-transform: uppercase;
+  color: #42c0B5;
+  font-weight: 700;
+}
+
 /* Sticky footer */
 footer {
   width: 100%;
