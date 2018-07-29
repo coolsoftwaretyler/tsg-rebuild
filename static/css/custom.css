@@ -90,7 +90,7 @@ h1, .newbie-quote h2 {
 .big-text,
 .diversity-lead,
 .newbie-quote,
-.testimonial_para {
+.testimonial_para  {
   padding: 1.5em;
 }
 
@@ -107,6 +107,15 @@ h1, .newbie-quote h2 {
 .carousel-control-prev {
   position: absolute;
   bottom: 50;
+}
+
+.col-sm-2 img {
+  display: block;
+  margin: 0 auto;
+}
+
+.col-sm-10 h4 {
+  text-align: center;
 }
 
 /* Navbar styles */
