@@ -8,21 +8,10 @@
   .index-what-makes-us-different,
   .index-diversity-lead,
   .index-diversity-long,
-  .founders-pic,
-  .instagram,
+  .index-instagram,
   .index-lead-text,
-  .hero-img,
   .hero-img-1,
   .hero-img-2,
-  .meet-the-team,
-  .need-employees,
-  .our-process,
-  .our-story,
-  .resume-reviews,
-  .services,
-  .diversity-img,
-  .testimonials,
-  .we-know,
   .newbie-quote,
   .ticker-wrapper {
     grid-column: 1 / -1;
@@ -58,10 +47,6 @@
       grid-column: 1 / 7;
     }
 
-    .need-employees {
-      grid-column: 7 / 9;
-    }
-
     .index-diversity-lead {
       grid-column: 1 / 7;
     }
@@ -70,23 +55,12 @@
       grid-column: 7 / 13;
     }
 
-    .our-process {
-      grid-column: 1 / 7;
-    }
-
     .openings {
       grid-column: 7 / 13;
     }
 
-    .resume-reviews {
-      grid-column: 1 / 6;
-    }
-
     .resume-picture {
       grid-column: 6 / 13
-    }
-    .we-know {
-      grid-column: 9 / 11;
     }
   }
 
@@ -129,6 +103,7 @@
     text-transform: uppercase;
   }
 </style>
+
 {{ partial "nav.html" . }}
 
 <div class="grid">
@@ -219,7 +194,7 @@
   </div>
 </div>
 
-<div class="instagram">
+<div class="index-instagram">
 </div>
 
 {{ partial "testimonials.html" . }} {{ partial "footer.html" . }}
