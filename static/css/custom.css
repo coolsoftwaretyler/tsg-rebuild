@@ -118,6 +118,10 @@ h1, .newbie-quote h2 {
   text-align: center;
 }
 
+.testimonial_control {
+  float: right;
+}
+
 /* Navbar styles */
 .navbar-brand img {
   max-width: 75%;
@@ -127,7 +131,7 @@ h1, .newbie-quote h2 {
   max-width: 50%;
 }
 
-@media all and (min-width: 700px) {
+@media all and (min-width: 36rem) {
 .navbar-brand img {
   max-width: 25%;
 }
