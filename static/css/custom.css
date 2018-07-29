@@ -16,7 +16,7 @@ p {
   text-align: left;
 }
 
-.for-employers-wrapper p, .for-candidates p {
+.for-employers-wrapper p, .for-candidates p, .diversity-long p {
   font-size: 1.125rem;
   text-align: left;
 }
@@ -41,11 +41,19 @@ span {
 }
 
 /* Header styles */
-h1 {
+h1, .newbie-quote h2 {
   color: #1c746c;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
   font-size: 2.25rem;
+  text-align: center;
+}
+
+.newbie-quote h3 {
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 1.0625rem;
   text-align: center;
 }
 
@@ -63,11 +71,16 @@ h1 {
   background-color: #86ADA9;
 }
 
+.newbie-quote {
+  background-color: #42c0b5;
+}
+
 /* Padding */
 .for-employers,
 .need-employees,
 .fast-and-reliable,
 .we-know,
-.for-candidates {
+.for-candidates,
+.diversity-long {
   padding: 1.5em;
 }
