@@ -34,6 +34,8 @@
   .founders-pic,
   .instagram,
   .hero-img,
+  .hero-img-1,
+  .hero-img-2,
   .meet-the-team,
   .need-employees,
   .our-process,
@@ -47,13 +49,6 @@
     grid-column: 1 / -1;
   }
 
-  .hero-img-1 {
-    grid-column: 1 / 7;
-  }
-
-  .hero-img-2 {
-    grid-column: 7 / -1;
-  }
 
   .for-employers,
   .need-employees,
@@ -79,6 +74,14 @@
   }
 
   @media all and (min-width: 700px) {
+
+      .hero-img-1 {
+        grid-column: 1 / 7;
+      }
+
+      .hero-img-2 {
+        grid-column: 8 / -1;
+      }
 
     .for-employers {
       grid-column: 1 / 7;
@@ -124,17 +127,16 @@
   }
 </style>
 {{ partial "nav.html" . }}
-<div class="container">
 <div class="grid">
 
 
 
   <div class="hero-img-1">
-  <img src="img/home/Staffers.jpg" />
+  <img src="img/home/Staffers.jpg" width="100%"/>
   </div>
 
   <div class="hero-img-2">
-    <img src="img/home/Recruiting.jpg" />
+    <img src="img/home/Recruiting.jpg" width="100%" />
   </div>
 
   <div class="big-text">
@@ -207,5 +209,4 @@
   </div>
 
 {{ partial "testimonials.html" . }}
-</div>
 {{ partial "footer.html" . }}
