@@ -110,7 +110,8 @@ h1, .newbie-quote h2 {
 .candidates-resume-reviews,
 .candidates-application-form,
 .about-lead-text,
-.about-our-story {
+.about-our-story,
+.index-lead-text {
   padding: 1.5em;
 }
 
