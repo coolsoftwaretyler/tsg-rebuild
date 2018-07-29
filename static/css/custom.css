@@ -89,7 +89,7 @@ h1, .newbie-quote h2 {
   border-bottom-width: 1px;
 }
 
-.candidates-get-involved {
+.candidates-get-involved, .about-lead-text {
   background-color: #1C746C;
 }
 
@@ -109,7 +109,9 @@ h1, .newbie-quote h2 {
 .candidates-our-process,
 .candidates-openings,
 .candidates-resume-reviews,
-.candidates-application-form  {
+.candidates-application-form,
+.about-lead-text,
+.about-our-story {
   padding: 1.5em;
 }
 
