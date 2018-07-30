@@ -59,6 +59,29 @@ footer ul {
   text-decoration: none;
 }
 
+.footer-right-column span {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form-control {
+  background-color: #4D4D4D;
+    border-radius: 0px;
+    border: none;
+}
+
+.form-control::placeholder {
+
+  color: #000;
+  text-transform: uppercase;
+}
+
+footer .tsg-btn {
+  border-color: #fff;
+  color: #42C0B5;
+}
+
 h1, .newbie-quote h2 {
   color: #1c746c;
   font-family: 'Roboto Condensed', sans-serif;
