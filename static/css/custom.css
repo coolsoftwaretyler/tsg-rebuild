@@ -106,9 +106,9 @@ h1, .newbie-quote h2 {
 .fast-and-reliable,
 .we-know,
 .for-candidates,
-.diversity-long,
+.index-diversity-long,
 .big-text,
-.diversity-lead,
+.index-diversity-lead,
 .newbie-quote,
 .testimonial_para,
 .services,
@@ -119,7 +119,8 @@ h1, .newbie-quote h2 {
 .candidates-application-form,
 .about-lead-text,
 .about-our-story,
-.index-lead-text {
+.index-lead-text,
+.index-what-makes-us-different {
   padding: 1.5em;
 }
 
