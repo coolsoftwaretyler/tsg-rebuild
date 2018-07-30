@@ -1,10 +1,56 @@
 {{ partial "head.html" . }}
-<!-- Begin nav bar -->
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+  }
+
+  .hero-img {
+    grid-column: 1 / -1;
+  }
+
+  @media all and (min-width: 36rem) {
+
+  }
+
+  /* The hero image */
+
+  .hero-img {
+    /* The image used */
+    background-image: url("img/employers/hero.jpg");
+    height: 672px;
+    /* Position and center the image to scale nicely on all screens */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  /* Place text in the middle of the image */
+
+  .hero-text {
+    text-align: left;
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .hero-text p {
+    text-transform: uppercase;
+  }
+</style>
 {{ partial "nav.html" . }}
 
 <div class="grid">
+
   <div class="hero-img">
-    <img src="img/employers/hero.jpg" style="width: 100%" />
+
+    <div class="hero-text">
+      <h1 style="color:#42C0B5">EMPLOYERS</h1>
+      <p>We are your recruitment team</p>
+    </div>
   </div>
 
   <div class="services">
