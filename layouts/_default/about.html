@@ -1,10 +1,63 @@
 {{ partial "head.html" .}}
 
   {{ partial "nav.html" . }}
+
+  <style>
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, [col-start] 1fr);
+    }
+    .about-hero-img,
+    .about-lead-text,
+    .about-our-story,
+    .about-founders-pic,
+    .meet-the-team
+     {
+      grid-column: 1 / -1;
+    }
+
+    @media all and (min-width: 36rem) {
+
+    }
+
+    /* The hero image */
+
+    .about-hero-img {
+      /* The image used */
+      background-image: url("img/about/hero-100.jpg");
+      height: 672px;
+      /* Position and center the image to scale nicely on all screens */
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    /* Place text in the middle of the image */
+
+    .hero-text {
+      text-align: left;
+      position: absolute;
+      top: 85%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+
+    .hero-text p {
+      text-transform: uppercase;
+    }
+
+
+  </style>
 <div class="grid">
 
-  <div class="hero-img">
-    <img src="img/about/hero-100.jpg" style="width: 100%" />
+
+    <div class="about-hero-img">
+      <div class="hero-text">
+        <h1 style="color:#42C0B5">ABOUT US</h1>
+        <p>We care about the cannabis industry</p>
+      </div>
     </div>
 
   <div class="about-lead-text" style="text-align: center">
@@ -23,8 +76,10 @@
       <button type="button" class="btn btn-primary tsg-btn">Sign up</button>
   </div>
 
-  <div class="founders-pic">
+<div class="about-founders-pic">
 <img src="img/about/our-story-100.jpg" style="width: 100%" />
   </div>
+    {{ partial "team.html" . }}
+</div>
 
-  {{ partial "team.html" . }} {{ partial "footer.html" . }}
+{{ partial "footer.html" . }}
