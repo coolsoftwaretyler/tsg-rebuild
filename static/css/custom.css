@@ -35,27 +35,30 @@ p {
   font-weight: 700;
 }
 
-/*  Employers styles */
-
-
-/* Sticky footer */
+/* Footer styles */
 footer {
   width: 100%;
-  line-height: 60px; /* Vertically center the text there */
   background: #666 ;
 }
-
 
 footer {
   padding: 1.5em;
 }
 
-footer>h6 {
-  float: right;
+footer ul {
+  list-style-type: none;
 }
 
+.footer-link {
+  text-transform: uppercase;
+}
 
-/* Header styles */
+.footer-link > a, .footer-social, .footer-social a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 h1, .newbie-quote h2 {
   color: #1c746c;
   font-family: 'Roboto Condensed', sans-serif;
