@@ -104,6 +104,15 @@
     color: #fff;
     text-transform: uppercase;
   }
+
+  /* Image styles */
+  .index-for-candidates-img {
+    background-image: url("img/home/for-candidates.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 </style>
 
 {{ partial "nav.html" . }}
@@ -133,8 +142,7 @@
 
   {{ partial "for-employers.html" . }}
 
-  <div class="index-for-candidates-img">
-    <img src="img/home/for-candidates.jpg" width="100%" />
+  <div class="index-for-candidates-img" style="min-height:600px;">
   </div>
 
   <div class="index-for-candidates">
@@ -198,6 +206,6 @@
 
   <div class="index-instagram">
   </div>
-  
+
 </div>
 {{ partial "testimonials.html" . }} {{ partial "footer.html" . }}
