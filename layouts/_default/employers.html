@@ -1,4 +1,5 @@
 {{ partial "head.html" . }}
+{{ partial "nav.html" . }}
 
 <style>
   .grid {
@@ -46,8 +47,6 @@
   }
 </style>
 
-{{ partial "nav.html" . }}
-
 <div class="grid">
 
   <div class="employers-hero-img">
@@ -86,5 +85,5 @@
   </div>
 </div>
 
-
+{{partial "for-employers.html" . }}
 {{ partial "testimonials.html" . }} {{ partial "footer.html" . }}

@@ -1,12 +1,75 @@
 {{ partial "head.html" . }}
 {{ partial "nav.html" . }}
 
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+  }
+  .candidates-hero-img,
+  .candidates-services,
+  .candidates-get-involved,
+  .candidates-stock-img-1,
+  .candidates-our-process,
+  .candidates-openings,
+  .candidates-resume-reviews,
+  .candidates-resume-picture,
+  .candidates-application-form
+   {
+    grid-column: 1 / -1;
+  }
+
+  @media all and (min-width: 36rem) {
+
+  }
+
+  /* The hero image */
+
+  .candidates-hero-img {
+    /* The image used */
+    background-image: url("img/candidates/hero.jpg");
+    height: 672px;
+    /* Position and center the image to scale nicely on all screens */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  /* Place text in the middle of the image */
+
+  .hero-text {
+    text-align: left;
+    position: absolute;
+    top: 85%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .hero-text p {
+    text-transform: uppercase;
+  }
+
+  .hero-btn {
+    background-color: transparent;
+    border-color: #42C0B5;
+    border-style: solid;
+    color: #fff;
+    text-transform: uppercase;
+  }
+</style>
+
 <div class="grid">
-  <div class="hero-img">
-    <img src="img/candidates/hero.jpg" style="width: 100%" />
+  <div class="candidates-hero-img">
+    <div class="hero-text">
+      <h1 style="color:#42C0B5">CANDIDATES</h1>
+      <p>We're looking out for you</p>
+      <button class="hero-btn">Submit your resume</button>
+    </div>
   </div>
 
-  <div class="services" style="text-align: center">
+  <div class="candidates-services" style="text-align: center">
     <h1>OUR SERVICES</h1>
         <p style="font-size: 1.875rem;  font-weight: 700; text-align: center;">Accelerate your Career Path</p>
     <p style="text-align:  center;">We help employers across the cannabis industry, including dispensaries, cannabis cultivation centers, and advocacy organizations, find the right candidates. We also offer staffing services for ancillary businesses and professional fields such as the
@@ -21,12 +84,12 @@
     <div style="text-align: center; color: #fff; text-transform: uppercase;">Sign up ></div>
   </div>
 
-  <div class="stock-img-1">
+  <div class="candidates-stock-img-1">
     <img src="img/candidates/our-process.jpg" style="width: 100%" />
   </div>
 
   <div class="candidates-our-process">
-    <h1>OUR PROCESS</h1>
+    <h1 style="text-align: left;">OUR PROCESS</h1>
     <p>If you are interested in a career in the cannabis industry, submit your resume and details to us using the form below. If we see an opportunity that might fit your skills and interests, we will contact you for an interview.
     </p>
     <p>Following a successful interview with us, we may need to a background check, depending on the company and location. Past cannabis-related offenses will not automatically disqualify you as a candidate.</p>
@@ -34,7 +97,7 @@
   </div>
 
   <div class="candidates-openings">
-    <h1>Openings</h1>
+    <h1 style="text-align: left;">Openings</h1>
     <p>The industry and our client pool are constantly evolving; if you don’t hear from us right away, don’t give up. Our needs are always changing based on what our clients are looking for. Keep an eye on our social media pages for current openings and
       be sure to check our current job listings.</p>
   </div>
@@ -56,4 +119,5 @@
     <h1 style="text-align: left">Application Form</h1>
   </div>
 
+  </div>
 {{ partial "footer.html" . }}
