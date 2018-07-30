@@ -6,7 +6,11 @@
     grid-template-columns: repeat(12, [col-start] 1fr);
   }
 
-  .hero-img {
+  .employers-hero-img,
+  .employers-services,
+  .employers-we-ensure,
+  .employers-stock-img-1,
+  .employers-diversity {
     grid-column: 1 / -1;
   }
 
@@ -16,7 +20,7 @@
 
   /* The hero image */
 
-  .hero-img {
+  .employers-hero-img {
     /* The image used */
     background-image: url("img/employers/hero.jpg");
     height: 672px;
@@ -31,8 +35,8 @@
   .hero-text {
     text-align: left;
     position: absolute;
-    top: 75%;
-    left: 25%;
+    top: 90%;
+    left: 75%;
     transform: translate(-50%, -50%);
     color: white;
   }
@@ -41,19 +45,19 @@
     text-transform: uppercase;
   }
 </style>
+
 {{ partial "nav.html" . }}
 
 <div class="grid">
 
-  <div class="hero-img">
-
+  <div class="employers-hero-img">
     <div class="hero-text">
       <h1 style="color:#42C0B5">EMPLOYERS</h1>
       <p>We are your recruitment team</p>
     </div>
   </div>
 
-  <div class="services">
+  <div class="employers-services">
     <h1>OUR SERVICES</h1>
     <p style="font-size: 1.875rem;  font-weight: 700; text-align: center;">Staffing any job can be a time-consuming project</p>
     <p style="text-align: center;">Advertising, recruiting, sorting through hundreds of applications to select a few candidates for interviews, and selecting the best fit for your company; it takes away time and attention you’d be better off spending on other parts of your business.
@@ -61,16 +65,17 @@
       can also rest assured that you will be presented with highly qualified, skilled and motivated candidates. We are dedicated to providing you with the exceptional candidates you need for your company to thrive and grow.</p>
   </div>
 
-  <div class="big-text" style="background-color: #42c0B5; text-align: center;">
+  <div class="employers-we-ensure" style="background-color: #42c0B5; text-align: center;">
     <h1 style="text-align: center;">WE ENSURE THAT THE CANDIDATES WE RECOMMEND ARE THE PERFECT MATCH BY TAKING TIME TO UNDERSTAND YOUR COMPANY’S CULTURE AND VALUES</h1>
     <a href=" " style="color: #fff; font-weight: bold; text-decoration: none;">HOW CAN WE HELP? ></a>
   </div>
 
-  <div class="stock-img-1">
-<img src="img/employers/diversity.jpg" style="width:100%" />  </div>
+  <div class="employers-stock-img-1">
+    <img src="img/employers/diversity.jpg" style="width:100%" />
+  </div>
 
-  <div class="big-text">
-    <h1>Why does diversity matter?</h1>
+  <div class="employers-diversity">
+    <h1 style="text-align: left;">Why does diversity matter?</h1>
     <p>Diversity is far more than just a moral issue. It’s a business necessity for any company in the 21st century — especially for cannabis businesses, which face opportunities and challenges unlike any other industry. It’s no secret that the medical and
       legal cannabis industries are highly scrutinized. This scrutiny extends to the diversity of the staff of prospective businesses. Several of the most recent states to create a competitive cannabis dispensary application process have requested information
       about the diversity of the applicants.</p>
@@ -79,10 +84,7 @@
     </p>
     <p>And most importantly, you will find that by bringing together a team with different backgrounds, your workforce will be well equipped to creatively and effectively handle the unpredictable nature of the cannabis business.</p>
   </div>
-
-{{ partial "for-employers.html" . }}
-
-{{ partial "testimonials.html" . }}
+</div>
 
 
-{{ partial "footer.html" . }}
+{{ partial "testimonials.html" . }} {{ partial "footer.html" . }}
