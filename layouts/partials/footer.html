@@ -1,9 +1,59 @@
-<footer class="footer">
-    <!-- Big and gray with non-discrimination policy -->
-    <!-- Copyright -->
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+  }
+
+  .footer-left-column {
+    grid-column: 1 / 5;
+  }
+
+  .footer-middle-column {
+    grid-column: 5 / 9
+  }
+
+  .footer-right-column {
+    grid-column: 9 / 13
+  }
+</style>
+<footer class="footer grid">
+  <!-- Big and gray with non-discrimination policy -->
+  <!-- Copyright -->
+  <div class="footer-left-column">
+    <ul>
+      <li class="footer-link"><a href=" ">Employers</a></li>
+      <li class="footer-link"><a href=" ">Candidates</a></li>
+      <li class="footer-link"><a href=" ">About</a></li>
+      <li class="footer-link"><a href=" ">Resources</a></li>
+      <li class="footer-link"><a href=" ">Updates</a></li>
+    </ul>
     <h6>
       *SEE OUR NON-DISCRIMINATION POLICY
     </h6>
+  </div>
+
+  <div class="footer-middle-column">
+    <span>Follow us on social media</span>
+    <ul>
+      <li class="footer-social"><a href=" "></a></li>
+      <li class="footer-social"><a href=" "></a></li>
+      <li class="footer-social"><a href=" "></a></li>
+      <li class="footer-social"><a href=" "></a></li>
+    </ul>
+  </div>
+
+  <div class="footer-right-column">
+    <span>Sign up for our newsletter</span>
+    <form>
+      <div class="form-group">
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First name, last name">
+      </div>
+      <div class="form-group">
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email addressS">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
   <!-- Footer -->
 </footer>
 <!-- Bootstrap reqs -->
