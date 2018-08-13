@@ -17,7 +17,9 @@
   .ticker-wrapper,
   .index-for-candidates,
   .index-for-candidates-img,
-  .index-diversity-img {
+  .index-diversity-img,
+  .hero-img-1-container,
+  .hero-img-2-container {
     grid-column: 1 / -1;
   }
 
@@ -44,6 +46,14 @@
     }
 
     .hero-img-2 {
+      grid-column: 7 / -1;
+    }
+
+    .hero-img-1-container {
+      grid-column: 1 /7;
+    }
+
+    .hero-img-2-container {
       grid-column: 7 / -1;
     }
 
@@ -77,15 +87,6 @@
     position: relative;
   }
 
-  .hero-img-1 {
-    /* The image used */
-    background-image: url("img/home/Staffers.jpg");
-  }
-
-  .hero-img-2 {
-    background-image: url("img/home/Recruiting.jpg");
-  }
-
   /* Place text in the middle of the image */
 
   .hero-text {
@@ -105,33 +106,31 @@
     text-transform: uppercase;
   }
 
-  /* Image styles */
-  .index-for-candidates-img {
-    background-image: url("img/home/for-candidates.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  .hero-img-1-container, .hero-img-2-container, .hero-img-3-container {
     position: relative;
+    object-fit: cover;
+    width: 100%;
   }
 </style>
 
 {{ partial "nav.html" . }}
 
 <div class="grid">
-  <div class="hero-img hero-img-1">
+  <div class="hero-img-1-container">
+    <img src="img/home/Recruiting.jpg" width="100%">
     <div class="hero-text">
-      <h1 style="color: #fff;">Staffers</h1>
-      <p>We recruit staff at all levels. Tell us about the position you are looking to fill.</p>
-      <button class="hero-btn">Tell us what you need</button>
-    </div>
+    <h1 style="color: #fff;">Staffers</h1>
+    <p>We recruit staff at all levels. Tell us about the position you are looking to fill.</p>
+    <button class="hero-btn">Tell us what you need</button>
   </div>
-
-  <div class="hero-img hero-img-2">
+  </div>
+  <div class="hero-img-2-container">
+    <img src="img/home/Staffers.jpg" width="100%">
     <div class="hero-text">
       <h1 style="color:#fff;">Recruiting</h1>
       <p>Work in one of the fastest growing, new industries. Tell us about yourself and the career you want.</p>
       <button class="hero-btn">Submit your resume</button>
-    </div>
+  </div>
   </div>
 
   <div class="index-lead-text">
@@ -142,7 +141,8 @@
 
   {{ partial "for-employers.html" . }}
 
-  <div class="index-for-candidates-img" style="min-height:600px;">
+  <div class="index-for-candidates-img hero-img-3-container">
+    <img src="img/home/for-candidates.jpg" width="100%">
   </div>
 
   <div class="index-for-candidates">
@@ -153,7 +153,7 @@
     <button type="button" class="btn btn-primary tsg-btn">Find a career</button>
   </div>
 
-  <div class="index-diversity-img">
+  <div class="index-diversity-img hero-img-3-container">
     <img src="img/home/diversity.jpg" width="100%" />
   </div>
 
