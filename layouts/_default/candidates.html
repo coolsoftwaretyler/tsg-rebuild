@@ -42,13 +42,9 @@
   /* The hero image */
 
   .candidates-hero-img {
-    /* The image used */
-    background-image: url("img/candidates/hero.jpg");
-    height: 672px;
-    /* Position and center the image to scale nicely on all screens */
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
+    object-fit: cover;
+    width: 100%;
   }
 
   /* Place text in the middle of the image */
@@ -78,6 +74,7 @@
 <div class="grid">
 
   <div class="candidates-hero-img">
+    <img src="img/candidates/hero.jpg" width="100%" />
     <div class="hero-text">
       <h1 style="color:#42C0B5">CANDIDATES</h1>
       <p>We're looking out for you</p>
