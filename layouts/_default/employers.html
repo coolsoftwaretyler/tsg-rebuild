@@ -22,13 +22,9 @@
   /* The hero image */
 
   .employers-hero-img {
-    /* The image used */
-    background-image: url("img/employers/hero.jpg");
-    height: 672px;
-    /* Position and center the image to scale nicely on all screens */
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
+    object-fit: cover;
+    width: 100%;
   }
 
   /* Place text in the middle of the image */
@@ -50,6 +46,7 @@
 <div class="grid">
 
   <div class="employers-hero-img">
+    <img src="img/employers/hero.jpg" width="100%">
     <div class="hero-text">
       <h1 style="color:#42C0B5">EMPLOYERS</h1>
       <p>We are your recruitment team</p>
@@ -83,7 +80,7 @@
     </p>
     <p>And most importantly, you will find that by bringing together a team with different backgrounds, your workforce will be well equipped to creatively and effectively handle the unpredictable nature of the cannabis business.</p>
   </div>
-  
+
 </div>
 
 {{partial "for-employers.html" . }}
