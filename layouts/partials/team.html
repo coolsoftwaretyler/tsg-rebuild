@@ -3,51 +3,294 @@
 <!-- 1 column row with Meet the team -->
 <!-- 2 column row - image and bio -->
 <!-- carousel with headshots -->
+<style>
+  .meet-the-team {
+    display: grid;
+    grid-template-columns: repeat(5, [col-start] 1fr);
+  }
 
-<div class="meet-the-team container">
-  <div class="team-header row">
-    <div class="col">
-      <h1>Meet the team</h1>
-      <div>we're pretty cool</div>
+  .test-slider {
+    grid-column: 1 /-1;
+  }
+
+  .team-header {
+    grid-column: 1 /-1;
+  }
+
+  .team-hero-img {
+    grid-column: 1/-1;
+  }
+
+  .team-bio {
+    grid-column: 1 /-1;
+  }
+
+  @media all and (min-width: 36rem) {
+
+    .team-hero-img {
+      grid-column: 1/3;
+    }
+
+    .team-bio {
+      grid-column: 3 /-1;
+    }
+  }
+
+
+  /* Position the image container (needed to position the left and right arrows) */
+
+  .container {
+    position: relative;
+  }
+
+  /* Hide the images by default */
+
+  .mySlides {
+    display: none;
+  }
+
+  /* Add a pointer when hovering over the thumbnail images */
+
+  .cursor {
+    cursor: pointer;
+  }
+
+  /* Next & previous buttons */
+
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Number text (1/3 etc) */
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* Container for image text */
+
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Six columns side by side */
+
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+
+  /* Add a transparency effect for thumnbail images */
+
+  .demo {
+    opacity: 0.6;
+  }
+
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+</style>
+<!-- Container for the image gallery -->
+<div class="container test-slider">
+
+  <!-- Full-width images with number text -->
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <div class="row">
+      <div class="col-6">
+        <img src="img/about/tiffany-100.jpg" style="width:100%">
+      </div>
+      <div class="col-6">
+        <p>
+        Tiffany helps cannabis businesses find diverse talent as a recruiter for THC Staffing Group. She works with a variety of companies and candidates from across the country. A former associate director of employer relations at the Sloan School of Management
+        at Massachusetts Institute of Technology, she has 20 years of experience in recruiting, marketing and operations. Tiffany is a volunteer with Women Grow Boston, a networking organization for women in the cannabis industry. She holds a BS in Business
+        Administration from UNC-Chapel Hill and an MBA from Simmons School of Management. She is based in the Boston area.
+      </p>
+      </div>
     </div>
   </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
     <div class="row">
-      <div class="col-sm-6">
-        <div class="team-hero-img">
-          <img src="img/about/danielle-100.jpg" style="width: 100%" />
-        </div>
+      <div class="col-6">
+        <img src="img/about/asset-22-100.jpg" style="width:100%">
       </div>
-      <div class="col-sm-6">
-        <p>Danielle Schumacher is a seasoned activist with experience running cannabis businesses across the country. As the first chancellor of Oaksterdam University, Danielle worked with Richard Lee to establish America’s first cannabis college during
-          which she developed the curriculum and recruited, trained, and supervised instructors. She coordinated extensive major media coverage and has been quoted by various media outlets including Fox News, CNBC, and San Francisco Chronicle. Her favorite
-          part of the experience was advising graduates and helping people to start new careers they love</p>
-        <p>Originally from the Chicago area, Danielle was recruited by the Berkeley Patients Group in 2005 to head the Cannabis Action Network (CAN), a national coalition to fight for the right of adults to access and responsibly use cannabis. Danielle has
-          served as office manager for internationally-respected authority on cannabis Chris Conrad and activist author Mikki Norris, and she currently serves as office manager for noted physician Frank Lucido MD and nurse practitioner, Maria Mangini
-          PhD FNP.</p>
-        <p>Before being recruited to California, Danielle was Executive Director of Illinois NORML and held the Youth Seat on the National NORML Board of Directors. She was named Freedom Fighter by High Times Magazine at age 22. Danielle co-founded University
-          of Illinois chapters of the National Organization for the Reform of Marijuana Laws and Students for Sensible Drug Policy in 2001. She earned a degree in anthropology in 2004, graduating with highest distinction and earning the Patricia O’Brien
-          Award for Outstanding Senior Thesis.</p>
-        <p>As an event planner, Danielle has planned dozens of memorable events including Ed Rosenthal’s Second Wonders of Cannabis Festival in Golden Gate Park and Frank Lucido and Maria Mangini’s annual Open House and Garden Party in Berkeley. She has
-          also facilitated countless meetings and workshops, including legal workshops for Americans for Safe Access since 2006.</p>
-        <p>Danielle serves as the current President & CEO of THC Staffing Group and continues her mission of perpetuating equity in the legal cannabis industry.</p>
+      <div class="col-6">
+        <p>
+        Jesse is passionate about reducing the harms of incarceration. Previously, Jesse advocated for criminal justice reform as Policy Director of the nonprofit Legal Services for Prisoners with Children. A graduate of Brown University and UC Hastings College
+        of the Law, he helped start the Students for Sensible Drug Policy chapters at both schools. He has received awards including the Daily Journal CLAY Award (2016), SF Human Rights Commission HERO Award for Organizations Advancing Civil Rights (2014),
+        SF Board of Supervisors Certificate of Honor (2014), the NORML Student Activist Award (2010), and the High Times Freedom Fighter of the Month Award (2007). Jesse practices business law with Greenbridge Corporate Counsel, and is based in San Francisco.
+      </p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-2">
-        <img src="img/about/tiffany-100.jpg" style="width:100%" />
-      </div>
-      <div class="col-2">
-        <img src="img/about/asset-22-100.jpg" style="width:100%" />
-      </div>
-      <div class="col-2">
-        <img src="img/about/asset-22-100.jpg" style="width:100%" />
-      </div>
-      <div class="col-2">
-        <img src="img/about/asset-20-100.jpg" style="width:100%" />
-      </div>
-      <div class="col-2">
-        <img src="img/about/shaleen-100.jpg" style="width:100%" />
+  </div>
 
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <div class="row">
+      <div class="col-6">
+        <img src="img/about/asset-21-100.jpg" style="width:100%">
       </div>
+      <div class="col-6">
+        <p>
+        KC’s interests primarily lie in the natural sciences, social and drug policy reform, producing art, youth political involvement, and LGBTQIA* communities’ issues. In addition to earning their Bachelor’s degree in Biology, KC has volunteered throughout
+        their undergraduate experience as an officer and president of both the Queer-Straight Alliance and Students for Sensible Drug Policy chapter at Eckerd College. Passionate about how cannabis has improved their life, KC became THC Staffing Group’s
+        first intern and continues the work for minority involvement of all kinds in the cannabis industry, particularly in Florida.
+      </p> </div>
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <div class="row">
+      <div class="col-6">
+        <img src="img/about/asset-20-100.jpg" style="width:100%">
+      </div>
+      <div class="col-6">
+        <p>
+        Fabiola’s experiences as an activist and public health researcher paved her way into the cannabis industry. Her expertise lies in adding a health lens to issues of immigration, incarceration, education, and economic security. Her research and advocacy
+        work has helped pass laws that improved health and equity of low-wage workers (SB 588 – California Fair Day’s Pay Act) and people in the criminal justice system (Proposition 57 – Public Safety and Rehabilitation Act). Many of the projects she
+        worked on were with people who’ve been disproportionately criminalized by cannabis prohibition. She has also experienced how the war on drugs affected her family and communities. As a result, she decided to focus on the cannabis industry and started
+        her career shift by interning with THC Staffing Group. She believes that the cannabis industry can improve individual health and economic wellness. Fabiola received her Bachelor of Arts in Sociology and Master’s degree in Public Health from the
+        University of California Los Angeles.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <div class="row">
+      <div class="col-6">
+        <img src="img/about/shaleen-100.jpg" style="width:100%">
+      </div>
+      <div class="col-6">
+        <p>
+        Shaleen Title was the co-founder of THC Staffing Group with over ten years of experience helping people to start new careers in cannabis policy and business. As the Speakers Bureau Director for Law Enforcement Against Prohibition, Shaleen recruited high-profile
+        judges, law enforcement officers, DEA agents and prosecutors to speak out in favor of legalization. She placed an emphasis on diversity, more than doubling the number of women representatives during her time at LEAP. As an attorney specializing
+        in cannabis regulations, she has provided regulatory expertise for leading cannabis consulting firms including 4Front Advisors and Vicente Sederberg. Shaleen has been quoted in publications including the Boston Globe, Boston Herald, Boston Business
+        Journal, NPR, Al Jazeera, and Denver Post and has written columns for Huffington Post, Ladybud, and The Influence. In 2017, Shaleen Title left THC Staffing Group after being appointed by Governor Charlie Baker, Attorney General Maura Healey, and
+        Treasurer Deb Goldberg to Massachusetts’ Cannabis Control Commission.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <div class="row">
+      <div class="col-6">
+        <img src="img/about/danielle-100.jpg" style="width:100%">
+      </div>
+      <div class="col-6">
+        <p>Danielle Schumacher is a seasoned activist with experience running cannabis businesses across the country. As the first chancellor of Oaksterdam University, Danielle worked with Richard Lee to establish America’s first cannabis college during which she
+        developed the curriculum and recruited, trained, and supervised instructors. She coordinated extensive major media coverage and has been quoted by various media outlets including Fox News, CNBC, and San Francisco Chronicle. Her favorite part of
+        the experience was advising graduates and helping people to start new careers they love.</p><p> Originally from the Chicago area, Danielle was recruited by the Berkeley Patients Group in 2005 to head the Cannabis Action Network (CAN), a national coalition
+        to fight for the right of adults to access and responsibly use cannabis. Danielle has served as office manager for internationally-respected authority on cannabis Chris Conrad and activist author Mikki Norris, and she currently serves as office
+        manager for noted physician Frank Lucido MD and nurse practitioner, Maria Mangini PhD FNP.</p><p> Before being recruited to California, Danielle was Executive Director of Illinois NORML and held the Youth Seat on the National NORML Board of Directors.
+        She was named Freedom Fighter by High Times Magazine at age 22. Danielle co-founded University of Illinois chapters of the National Organization for the Reform of Marijuana Laws and Students for Sensible Drug Policy in 2001. She earned a degree
+        in anthropology in 2004, graduating with highest distinction and earning the Patricia O’Brien Award for Outstanding Senior Thesis.</p><p> As an event planner, Danielle has planned dozens of memorable events including Ed Rosenthal’s Second Wonders of
+        Cannabis Festival in Golden Gate Park and Frank Lucido and Maria Mangini’s annual Open House and Garden Party in Berkeley. She has also facilitated countless meetings and workshops, including legal workshops for Americans for Safe Access since
+        2006.</p> <p>Danielle serves as the current President & CEO of THC Staffing Group and continues her mission of perpetuating equity in the legal cannabis industry.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/about/tiffany-100.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/about/asset-22-100.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/about/asset-21-100.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/about/asset-20-100.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/about/shaleen-100.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/about/danielle-100.jpg" style="width:100%" onclick="currentSlide(6)" alt="Nature and sunrise">
+    </div>
   </div>
 </div>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {
+      slideIndex = 1
+    }
+    if (n < 1) {
+      slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
+    captionText.innerHTML = dots[slideIndex - 1].alt;
+  }
+</script>
