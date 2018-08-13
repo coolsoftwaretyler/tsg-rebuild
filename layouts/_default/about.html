@@ -29,14 +29,9 @@
     /* The hero image */
 
     .about-hero-img {
-      /* The image used */
-      background-image: url("img/about/hero-100.jpg");
-      height: 672px;
-      /* Position and center the image to scale nicely on all screens */
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
       position: relative;
+      object-fit: cover;
+      width: 100%;
     }
 
     /* Place text in the middle of the image */
@@ -60,6 +55,7 @@
 <div class="grid">
 
   <div class="about-hero-img">
+    <img src="img/about/hero-100.jpg" width="100%" />
       <div class="hero-text">
         <h1 style="color:#42C0B5">ABOUT US</h1>
         <p>We care about the cannabis industry</p>
