@@ -180,11 +180,11 @@ h1, .newbie-quote h2 {
 
 /* Navbar styles */
 .navbar-brand img {
-  max-width: 75%;
+  max-width: 100%;
 }
 
 .navbar-brand {
-  max-width: 75%;
+  max-width: 50%;
 }
 
 .nav-link {
