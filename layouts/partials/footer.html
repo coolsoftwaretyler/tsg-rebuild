@@ -4,6 +4,12 @@
     grid-template-columns: repeat(12, [col-start] 1fr);
   }
 
+  .footer-left-column,
+  .footer-middle-column,
+  .footer-right-column {
+    grid-column: 1 / -1;
+  }
+    @media all and (min-width: 36rem) {
   .footer-left-column {
     grid-column: 1 / 5;
   }
@@ -15,18 +21,17 @@
   .footer-right-column {
     grid-column: 9 / 13
   }
+}
 </style>
 <footer class="footer grid">
   <!-- Big and gray with non-discrimination policy -->
   <!-- Copyright -->
   <div class="footer-left-column">
-    <ul>
-      <li class="footer-link"><a href=" ">Employers</a></li>
-      <li class="footer-link"><a href=" ">Candidates</a></li>
-      <li class="footer-link"><a href=" ">About</a></li>
-      <li class="footer-link"><a href=" ">Resources</a></li>
-      <li class="footer-link"><a href=" ">Updates</a></li>
-      <li class="footer-link"><a href=" " style="color:#000">*SEE OUR NON-DISCRIMINATION POLICY</a></li>
+    <ul style="padding-left:0px">
+      <li class="footer-link"><a href="/employers">Employers</a></li>
+      <li class="footer-link"><a href="/candidates">Candidates</a></li>
+      <li class="footer-link"><a href="/about">About</a></li>
+      <li class="footer-link"><a href="/non-discrimination-policy" style="color:#000">*SEE OUR NON-DISCRIMINATION POLICY</a></li>
 
     </ul>
     <h6>
@@ -34,12 +39,12 @@
   </div>
 
   <div class="footer-middle-column">
-    <ul>
+    <ul style="padding-left:0px">
       <span class="footer-social">Follow us on social media</span>
-      <li class="footer-social"><a href=" "><i class="fab fa-facebook-f"></i> Facebook</a></li>
-      <li class="footer-social"><a href=" "><i class="fab fa-instagram"></i> Instagram</a></li>
-      <li class="footer-social"><a href=" "><i class="fab fa-twitter"></i> Twitter</a></li>
-      <li class="footer-social"><a href=" "><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+      <li class="footer-social"><a href="https://www.facebook.coma/THCStaffing/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+      <li class="footer-social"><a href="https://www.instagram.com/thcstaffing/"><i class="fab fa-instagram"></i> Instagram</a></li>
+      <li class="footer-social"><a href="https://twitter.com/thcstaffing"><i class="fab fa-twitter"></i> Twitter</a></li>
+      <li class="footer-social"><a href="https://www.linkedin.com/company/thc-staffing-group/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
     </ul>
   </div>
 
