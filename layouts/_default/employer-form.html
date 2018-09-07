@@ -2,6 +2,10 @@
 {{ partial "nav.html" . }}
 <style>
   input {width: 100%}
+  .form-control {
+    background: white;
+    border: 1px solid;
+  }
 </style>
 <div class="container">
   <h1>TELL US WHO YOU NEED</h1>
@@ -24,7 +28,7 @@
         <label for="Contact Person">Contact Person*</label>
         <br />
         <span class="wpcf7-form-control-wrap your-name">
-      <input id="Contact Person"type="text" name="Contact Person" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" tabindex="0" />
+      <input id="Contact Person"type="text" name="Contact Person" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required   " aria-required="true" aria-invalid="false" tabindex="0" />
     </span>
         <label for="email">Email Address*</label>
         <br />
@@ -43,7 +47,7 @@
         <label for="About Your Company">Anything else you want to tell us about your company?</label>
         <br />
         <span class="wpcf7-form-control-wrap AboutYourCompany">
-                <textarea id="About Your Company" name="About Your Company" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" tabindex="0"></textarea>
+                <textarea id="About Your Company" name="About Your Company" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control" aria-invalid="false" tabindex="0"></textarea>
               </span>
         <br />
 
@@ -61,6 +65,7 @@
                 <option value="Freelance" tabindex="0">Freelance</option>
               </select>
               </span>
+        <br />
         <label for="City and State">City and State where will position be located, unless work-from-home position</label>
         <br />
         <span class="wpcf7-form-control-wrap CityState">
@@ -69,18 +74,19 @@
         <label for="Job Description">Position Job Description</label>
         <br />
         <span class="wpcf7-form-control-wrap JobDescription">
-                <textarea id="Job Description" name="Job Description" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" tabindex="0"></textarea>
+                <textarea id="Job Description" name="Job Description" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control" aria-invalid="false" tabindex="0"></textarea>
               </span>
         <label>Position Type</label>
         <br />
         <span class="wpcf7-form-control-wrap radio-561">
                 <span class="wpcf7-form-control wpcf7-radio"><span class="wpcf7-list-item first">
-                <input title="Salary Button"type="radio" name="Pay Type" value="Salary" tabindex="0" />
+                <input title="Salary Button"type="radio" name="Pay Type" value="Salary" tabindex="0" style="width:10px" />
                 <span class="wpcf7-list-item-label">Salary</span></span><span class="wpcf7-list-item last">
-                <input title = "Hourly button"type="radio" name="Pay Type" value="Hourly" tabindex="0" /><span class="wpcf7-list-item-label">Hourly</span>
+                <input title = "Hourly button"type="radio" name="Pay Type" value="Hourly" tabindex="0" style="width:10px"/><span class="wpcf7-list-item-label">Hourly</span>
         </span>
         </span>
         </span>
+        <br />
         <label for ="Pay Amount">Position Pay Amount</label>
         <br />
         <span class="wpcf7-form-control-wrap PayAmount">
@@ -111,12 +117,9 @@
             <label for="Anything Else">Anything Else You Want to Tell Us?</label>
         <br />
         <span class="wpcf7-form-control-wrap AnythingElse">
-      <textarea id="Anything Else" name="Anything Else" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" tabindex="0"></textarea>
+      <textarea id="Anything Else" name="Anything Else" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea form-control" aria-invalid="false" tabindex="0"></textarea>
     </span>
-        <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"  tabindex="0"/>
-
-
-
+        <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit btn tsg-btn"  tabindex="0" style="width: 10%"/>
       </fieldset>
       <div class="wpcf7-response-output wpcf7-display-none"></div>
     </form>
