@@ -221,3 +221,11 @@ h1, .newbie-quote h2 {
   font-size: 1.875rem;
 
 }
+
+.team-title-box {
+  background-color: #42C0B5;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-size: 1.875rem;
+}
