@@ -10,6 +10,10 @@
 <div class="container">
   <h1>TELL US WHO YOU NEED</h1>
   <h2 style="text-align: center">USE OUR SIMPLE SUBMISSION FORM TO GET STARTED</h2>
+  <div style="display:none; text-align:center;" id="thankyou_message">
+  <h2>Thanks for contacting us!
+  We will get back to you soon!</h2>
+  </div>
   <div role="form" class="wpcf7" id="wpcf7-f5985-p5986-o1" lang="en-US" dir="ltr">
     <form id="gform" action="https://script.google.com/macros/s/AKfycbw_pyPtUQU1oITCRARHy8j1c9OOlXBJnmQ3r6q1/exec" method="post" class="wpcf7-form" novalidate="novalidate">
       <fieldset class="pure-group">
@@ -124,7 +128,9 @@
         </span>
         <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit btn tsg-btn"  tabindex="0" style="width: 10%"/>
       </fieldset>
+      <div class="wpcf7-response-output wpcf7-display-none"></div>
     </form>
   </div>
 </div>
 {{ partial "footer.html" . }}
+<script data-cfasync="false" type="text/javascript" src="/js/form-submission-handler.js"></script>
