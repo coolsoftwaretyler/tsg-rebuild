@@ -7,6 +7,10 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+body {
+  background-color:
+}
+
 p {
   font-size: 1.125rem;
 }
@@ -229,4 +233,8 @@ h1, .newbie-quote h2 {
   text-align: center;
   font-size: 30px;
   font-size: 1.875rem;
+}
+
+.bg-light {
+  background-color: #e6e6e6!important;
 }
