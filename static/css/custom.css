@@ -114,6 +114,9 @@ p {
   font-size: 60px;
 }
 
+.candidates-hero-img p {
+  font-size: 25px;
+}
 /* Footer styles */
 footer {
   width: 100%;
@@ -288,12 +291,6 @@ h1, .newbie-quote h2 {
 
 .index-lead-text {
   text-align: center;
-}
-
-.hero-text h1 {
-  font-size: 30px;
-  font-size: 1.875rem;
-
 }
 
 .team-title-box {
