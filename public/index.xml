@@ -10,5 +10,15 @@
 	<atom:link href="https://tsg.netlify.com/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title></title>
+      <link>https://tsg.netlify.com/non-discrimination-policy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tsg.netlify.com/non-discrimination-policy/</guid>
+      <description>Non-Discrimination Policy for Clients and Candidates As a professional recruitment and placement service, THC Staffing Group assumes no responsibility or liability for the employment practices of any client business. Candidates for employment are not, at any time, employees of or independent contractors with THC Staffing Group.
+However, THC Staffing Group respects the rights of all individuals to have a workplace free of unlawful discrimination and harassment and supports the efforts of our client businesses to promote diversity and equality of employment opportunity.</description>
+    </item>
+    
   </channel>
 </rss>
