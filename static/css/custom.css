@@ -221,6 +221,31 @@ p {
 }
 
 /* Employers Styles */
+/* The hero image */
+.employers-hero-img {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Place text in the middle of the image */
+.employers-hero-text {
+  text-align: left;
+  position: absolute;
+  bottom: 8px;
+  right: 25px;
+  color: white;
+}
+
+.employers-hero-text p {
+  text-transform: uppercase;
+}
+
+/* Hero text */
+.employers-hero-text h1 {
+  text-align: left !important;
+}
+
 .employers-hero-img h1 {
   font-size: 60px;
 }
