@@ -1,49 +1,50 @@
 {{ partial "head.html" .}}
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(12, [col-start] 1fr);
+  }
+  .about-hero-img,
+  .about-lead-text,
+  .about-our-story,
+  .about-founders-pic,
+  .meet-the-team
+   {
+    grid-column: 1 / -1;
+  }
 
+  @media all and (min-width: 82.5rem) {
+    .about-our-story {
+      grid-column: 1 / 7;
+    }
+
+    .about-founders-pic {
+      grid-column: 7 / 13;
+    }
+  }
+
+  /* The hero image */
+
+  .about-hero-img {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  /* Place text in the middle of the image */
+
+  .hero-text {
+    text-align: left;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    color: white;
+  }
+</style>
+</head>
+<body lang="en">
   {{ partial "nav.html" . }}
 
-  <style>
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(12, [col-start] 1fr);
-    }
-    .about-hero-img,
-    .about-lead-text,
-    .about-our-story,
-    .about-founders-pic,
-    .meet-the-team
-     {
-      grid-column: 1 / -1;
-    }
-
-    @media all and (min-width: 82.5rem) {
-      .about-our-story {
-        grid-column: 1 / 7;
-      }
-
-      .about-founders-pic {
-        grid-column: 7 / 13;
-      }
-    }
-
-    /* The hero image */
-
-    .about-hero-img {
-      position: relative;
-      object-fit: cover;
-      width: 100%;
-    }
-
-    /* Place text in the middle of the image */
-
-    .hero-text {
-      text-align: left;
-      position: absolute;
-      bottom: 8px;
-      right: 16px;
-      color: white;
-    }
-  </style>
 
 <div class="grid">
 
