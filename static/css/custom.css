@@ -57,6 +57,11 @@ p {
   line-height: 1.75;
 }
 
+.index-diversity-long {
+  padding-right: 60px!important;
+  font-size: 15px;
+}
+
 /* For Employers Styles */
 .for-employers,
 .need-employees,
