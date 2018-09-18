@@ -33,6 +33,10 @@ p {
 }
 
 /* Index styles */
+
+.index-lead-text h1 {
+  padding: 6.5rem;
+}
 .index-diversity-lead span {
   text-transform: uppercase;
   color: #42c0B5;
