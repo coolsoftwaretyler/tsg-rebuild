@@ -35,7 +35,10 @@ p {
 /* Index styles */
 
 .index-lead-text h1 {
-  padding: 6.5rem;
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .index-diversity-lead span {
   text-transform: uppercase;
