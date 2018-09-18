@@ -152,6 +152,22 @@ p {
   padding: 75px;
 }
 
+/* About styles */
+.about-hero-img h1 {
+  font-size: 60px;
+  text-align:left!important;
+}
+
+.about-hero-img p {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.about-lead-text {
+  padding: 75px;
+  text-align: center;
+}
+
 /* Footer styles */
 footer {
   width: 100%;
