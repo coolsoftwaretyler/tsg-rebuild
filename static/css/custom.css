@@ -136,6 +136,12 @@ p {
   width: 100%;
 }
 
+.index-for-candidates,
+.index-diversity-long,
+.index-diversity-lead {
+  padding: 1.5rem;
+}
+
 .index-lead-text h1 {
   padding-top: 6.5rem;
   padding-bottom: 6.5rem;
@@ -168,6 +174,10 @@ p {
 .index-diversity-long {
   padding-right: 60px !important;
   font-size: 15px;
+}
+
+.index-lead-text {
+  text-align: center;
 }
 
 .newbie-quote {
@@ -271,6 +281,15 @@ p {
 }
 
 /* Candidates Styles */
+.candidates-services,
+.candidates-get-involved,
+.candidates-our-process,
+.candidates-openings,
+.candidates-resume-reviews,
+.candidates-application-form {
+  padding: 1.5rem;
+}
+
 .candidates-get-involved {
   background-color: #1C746C;
 }
@@ -329,6 +348,12 @@ p {
 }
 
 /* Employers Styles */
+.employers-services,
+.employers-we-ensure,
+.employers-diversity {
+  padding: 1.5rem;
+}
+
 /* The hero image */
 .employers-hero-img {
   position: relative;
@@ -380,6 +405,11 @@ p {
 }
 
 /* About styles */
+.about-lead-text,
+.about-our-story {
+  padding: 1.5em;
+}
+
 /* Background styles */
 .about-lead-text {
   background-color: #1C746C;
@@ -438,6 +468,13 @@ p {
   text-align: left;
 }
 
+.team-title-box {
+  background-color: #42C0B5;
+  color: white;
+  font-size: 30px;
+  font-size: 1.875rem;
+}
+
 /* Testimonials styles */
 .testimonials p {
   font-size: 1rem;
@@ -459,6 +496,10 @@ p {
 
 .col-sm-10 h4 {
   text-align: center;
+}
+
+.testimonial_para {
+  padding: 1.5rem;
 }
 
 /* Footer styles */
@@ -494,37 +535,4 @@ footer ul {
 footer .tsg-btn {
   border-color: #fff;
   color: #42C0B5;
-}
-
-/* Padding */
-.index-for-candidates,
-.index-diversity-long,
-.index-diversity-lead,
-.newbie-quote,
-.testimonial_para,
-.employers-services,
-.employers-we-ensure,
-.employers-diversity,
-.candidates-services,
-.candidates-get-involved,
-.candidates-our-process,
-.candidates-openings,
-.candidates-resume-reviews,
-.candidates-application-form,
-.about-lead-text,
-.about-our-story,
-.index-lead-text,
-  {
-  padding: 1.5em;
-}
-
-.index-lead-text {
-  text-align: center;
-}
-
-.team-title-box {
-  background-color: #42C0B5;
-  color: white;
-  font-size: 30px;
-  font-size: 1.875rem;
 }
