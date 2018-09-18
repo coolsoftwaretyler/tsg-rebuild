@@ -53,6 +53,8 @@ p {
 .index-diversity-lead p {
   padding-top: 60px;
   padding-bottom: 60px;
+  padding-left: 60px!important;
+  line-height: 1.75;
 }
 
 /* For Employers Styles */
