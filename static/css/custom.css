@@ -177,6 +177,10 @@ p {
   padding: 75px;
 }
 
+/* Meet the Team Styles */
+.team-header {
+  margin-top: 75px;
+}
 /* Footer styles */
 footer {
   width: 100%;
