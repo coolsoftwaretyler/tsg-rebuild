@@ -51,7 +51,6 @@ p {
   text-transform: uppercase;
 }
 
-
 /* Sweep To Right */
 .hvr-sweep-to-right {
   display: inline-block;
@@ -65,6 +64,7 @@ p {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
+
 .hvr-sweep-to-right:before {
   content: "";
   position: absolute;
@@ -85,9 +85,11 @@ p {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvr-sweep-to-right:hover, .hvr-sweep-to-right:focus, .hvr-sweep-to-right:active {
   color: white;
 }
+
 .hvr-sweep-to-right:hover:before, .hvr-sweep-to-right:focus:before, .hvr-sweep-to-right:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
