@@ -135,6 +135,10 @@ p {
   font-size: 25px;
 }
 
+.employers-services h1 {
+  margin-bottom: 0;
+}
+
 /* Footer styles */
 footer {
   width: 100%;
