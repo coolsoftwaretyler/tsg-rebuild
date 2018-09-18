@@ -173,6 +173,10 @@ p {
   border-color: white;
 }
 
+.about-our-story {
+  padding: 75px;
+}
+
 /* Footer styles */
 footer {
   width: 100%;
