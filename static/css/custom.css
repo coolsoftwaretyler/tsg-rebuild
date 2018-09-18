@@ -58,6 +58,10 @@ p {
   font-size: 14px;
 }
 
+.for-employers h1 {
+  font-size: 1.75rem;
+}
+
 /* Footer styles */
 footer {
   width: 100%;
