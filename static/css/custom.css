@@ -190,6 +190,7 @@ h1, .newbie-quote h2 {
 .nav-link {
   color: #000;
   font-weight: 700;
+  font-size: 13px;
 }
 
 .navbar-light .navbar-nav .nav-link {
