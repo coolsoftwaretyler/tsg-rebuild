@@ -79,6 +79,10 @@ p {
 .index-what-makes-us-different {
   padding: 75px;
 }
+
+.index-what-makes-us-different h1 {
+  text-align: left;
+}
 /* For Employers Styles */
 .for-employers,
 .need-employees,
