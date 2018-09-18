@@ -46,6 +46,18 @@ p {
   font-weight: 700;
 }
 
+/* For Employers Styles */
+.for-employers,
+.need-employees,
+.we-know,
+.fast-and-reliable {
+  padding-left: 60px!important;
+}
+
+.for-employers-wrapper p {
+  font-size: 14px;
+}
+
 /* Footer styles */
 footer {
   width: 100%;
