@@ -143,6 +143,11 @@ p {
   padding:75px;
 }
 
+.employers-diversity h1 {
+  font-size: 1.75rem;
+  text-align: left;
+}
+
 /* Footer styles */
 footer {
   width: 100%;
