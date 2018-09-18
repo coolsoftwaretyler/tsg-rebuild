@@ -75,6 +75,10 @@ p {
   text-align: center;
   letter-spacing: 2px;
 }
+
+.index-what-makes-us-different {
+  padding: 75px;
+}
 /* For Employers Styles */
 .for-employers,
 .need-employees,
@@ -205,7 +209,7 @@ h1, .newbie-quote h2 {
 .about-lead-text,
 .about-our-story,
 .index-lead-text,
-.index-what-makes-us-different {
+{
   padding: 1.5em;
 }
 
