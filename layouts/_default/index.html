@@ -10,15 +10,15 @@
   .index-diversity-long,
   .index-instagram,
   .index-lead-text,
-  .hero-img-1,
-  .hero-img-2,
+  .index-hero-img-1,
+  .index-hero-img-2,
   .newbie-quote,
   .ticker-wrapper,
   .index-for-candidates,
   .index-for-candidates-img,
   .index-diversity-img,
-  .hero-img-1-container,
-  .hero-img-2-container {
+  .index-hero-img-1-container,
+  .index-hero-img-2-container {
     grid-column: 1 / -1;
   }
 
@@ -40,19 +40,19 @@
 
   @media all and (min-width: 36rem) {
 
-    .hero-img-1 {
+    .index-hero-img-1 {
       grid-column: 1 / 7;
     }
 
-    .hero-img-2 {
+    .index-hero-img-2 {
       grid-column: 7 / -1;
     }
 
-    .hero-img-1-container {
+    .index-hero-img-1-container {
       grid-column: 1 /7;
     }
 
-    .hero-img-2-container {
+    .index-hero-img-2-container {
       grid-column: 7 / -1;
     }
 
@@ -75,69 +75,27 @@
       grid-column: 9 / 13;
     }
   }
-
-  /* The hero image */
-  .hero-img {
-    /* The image used */
-    height: 672px;
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-
-  /* Place text in the middle of the image */
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-
-  .hero-text p {
-   line-height: 1.2;
-  }
-
-  .hero-btn {
-    background-color: transparent;
-    border-color: #42C0B5;
-    border-style: solid;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 14px;
-  }
-
-  .hero-img-1-container,
-  .hero-img-2-container,
-  .hero-img-3-container {
-    position: relative;
-    object-fit: cover;
-    width: 100%;
-  }
 </style>
 </head>
 <body lang="en">
 {{ partial "nav.html" . }}
 
 <div class="grid">
-  <div class="hero-img-1-container">
+  <div class="index-hero-img-1-container">
     <img src="img/home/Recruiting.jpg" width="100%">
-    <div class="hero-text">
+    <div class="index-hero-text">
       <h1 style="color: #fff;">Staffers</h1>
       <p>We recruit staff at all levels. Tell us about the position you are looking to fill.</p>
-      <a href="/employer-form"><button class="hero-btn">Tell us what you need</button></a>
+      <a href="/employer-form"><button class="index-hero-btn">Tell us what you need</button></a>
     </div>
   </div>
 
-  <div class="hero-img-2-container">
+  <div class="index-hero-img-2-container">
     <img src="img/home/Staffers.jpg" width="100%">
-    <div class="hero-text">
+    <div class="index-hero-text">
       <h1 style="color:#fff;">Recruiting</h1>
       <p>Work in one of the fastest growing, new industries. Tell us about yourself and the career you want.</p>
-      <a href="/candidates/#submit-resume"><button class="hero-btn">Submit your resume</button></a>
+      <a href="/candidates/#submit-resume"><button class="index-hero-btn">Submit your resume</button></a>
     </div>
   </div>
 

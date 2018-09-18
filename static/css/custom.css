@@ -30,12 +30,54 @@ p {
 
 /* Index styles */
 
+  /* The hero image */
+  .index-hero-img {
+    /* The image used */
+    height: 672px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  /* Place text in the middle of the image */
+  .index-hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .index-hero-text p {
+   line-height: 1.2;
+  }
+
+  .index-hero-btn {
+    background-color: transparent;
+    border-color: #42C0B5;
+    border-style: solid;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  .index-hero-img-1-container,
+  .index-hero-img-2-container,
+  .index-hero-img-3-container {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+  }
 .index-lead-text h1 {
   padding-top: 6.5rem;
   padding-bottom: 6.5rem;
   padding-left: 100px;
   padding-right: 100px;
 }
+
 .index-diversity-lead span {
   text-transform: uppercase;
   color: #42c0B5;
@@ -45,6 +87,7 @@ p {
 .index-for-candidates {
   border: solid white;
 }
+
 .index-for-candidates button {
   font-size: 16px;
   font-weight: 600;
@@ -53,18 +96,18 @@ p {
 .index-diversity-lead p {
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 60px!important;
+  padding-left: 60px !important;
   line-height: 1.75;
 }
 
 .index-diversity-long {
-  padding-right: 60px!important;
+  padding-right: 60px !important;
   font-size: 15px;
 }
 
 .newbie-quote {
-  padding-top: 75px!important;
-  padding-bottom: 75px!important;
+  padding-top: 75px !important;
+  padding-bottom: 75px !important;
 }
 
 .newbie-quote h3 {
@@ -100,10 +143,10 @@ p {
 }
 
 .counter {
-display: inline;
-font-size:50px;
-width:200px;
-vertical-align: middle;
+  display: inline;
+  font-size: 50px;
+  width: 200px;
+  vertical-align: middle;
 }
 
 /* For Employers Styles */
@@ -111,7 +154,7 @@ vertical-align: middle;
 .need-employees,
 .we-know,
 .fast-and-reliable {
-  padding-left: 60px!important;
+  padding-left: 60px !important;
 }
 
 .for-employers-wrapper p {
@@ -158,7 +201,7 @@ vertical-align: middle;
 }
 
 .employers-services {
-  padding:75px;
+  padding: 75px;
 }
 
 .employers-diversity h1 {
@@ -173,7 +216,7 @@ vertical-align: middle;
 /* About styles */
 .about-hero-img h1 {
   font-size: 60px;
-  text-align:left!important;
+  text-align: left !important;
 }
 
 .about-hero-img p {
@@ -203,10 +246,11 @@ vertical-align: middle;
 .team-title-box {
   text-align: left;
 }
+
 /* Footer styles */
 footer {
   width: 100%;
-  background: #666 ;
+  background: #666;
 }
 
 footer {
@@ -221,7 +265,7 @@ footer ul {
   text-transform: uppercase;
 }
 
-.footer-link > a, .footer-social, .footer-social a {
+.footer-link>a, .footer-social, .footer-social a {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
@@ -235,12 +279,11 @@ footer ul {
 
 .form-control {
   background-color: #4D4D4D;
-    border-radius: 0px;
-    border: none;
+  border-radius: 0px;
+  border: none;
 }
 
 .form-control::placeholder {
-
   color: #000;
   text-transform: uppercase;
 }
@@ -259,10 +302,7 @@ h1, .newbie-quote h2 {
   text-transform: uppercase;
 }
 
-
-
 /* Background styles */
-
 .for-employers, .index-for-candidates, .candidates-resume-reviews, .about-our-story {
   background-color: #cccccc;
 }
@@ -312,12 +352,11 @@ h1, .newbie-quote h2 {
 .about-lead-text,
 .about-our-story,
 .index-lead-text,
-{
+  {
   padding: 1.5em;
 }
 
 /* testimonials styles */
-
 .testimonials p {
   font-size: 1rem;
 }
@@ -357,14 +396,15 @@ h1, .newbie-quote h2 {
 
 .navbar-light .navbar-nav .nav-link {
   color: #000;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 @media all and (min-width: 36rem) {
-.navbar-brand img {
-  max-width: 25%;
+  .navbar-brand img {
+    max-width: 25%;
+  }
 }
-}
+
 /* Custom buttons */
 .tsg-btn, .tsg-btn:hover {
   border-width: 3px;
@@ -387,5 +427,5 @@ h1, .newbie-quote h2 {
 }
 
 .bg-light {
-  background-color: #e6e6e6!important;
+  background-color: #e6e6e6 !important;
 }
