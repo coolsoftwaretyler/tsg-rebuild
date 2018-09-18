@@ -121,6 +121,10 @@ p {
 .candidates-services {
   padding: 75px;
 }
+
+.candidates-services h1 {
+  margin-bottom: 0;
+}
 /* Footer styles */
 footer {
   width: 100%;
