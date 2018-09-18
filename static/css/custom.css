@@ -171,6 +171,39 @@ p {
 }
 
 /* Candidates Styles */
+/* The hero image */
+.candidates-hero-img {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Place text in the middle of the image */
+.candidates-hero-text {
+  text-align: left;
+  position: absolute;
+  bottom: 8px;
+  right: 25px;
+  color: white;
+}
+
+.candidates-hero-text p {
+  text-transform: uppercase;
+}
+
+.candidates-hero-btn {
+  background-color: transparent;
+  border-color: #42C0B5;
+  border-style: solid;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Hero text */
+.candidates-hero-text h1 {
+  text-align: left !important;
+}
+
 .candidates-hero-img h1 {
   font-size: 60px;
 }
