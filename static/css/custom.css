@@ -90,13 +90,7 @@ p {
 }
 
 /* Index styles */
-.index-for-candidates {
-  background-color: #cccccc;
-}
-
-/* The hero image */
 .index-hero-img {
-  /* The image used */
   height: 672px;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
@@ -135,10 +129,12 @@ p {
   object-fit: cover;
   width: 100%;
 }
-
+.index-lead-text p {
+  padding: 75px;
+}
 .index-for-candidates,
 .index-diversity-long,
-.index-diversity-lead {
+.index-diversity-lead{
   padding: 1.5rem;
 }
 
@@ -157,6 +153,7 @@ p {
 
 .index-for-candidates {
   border: solid white;
+  background-color: #cccccc;
 }
 
 .index-for-candidates button {
