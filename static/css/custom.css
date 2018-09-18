@@ -7,6 +7,15 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+h1 {
+  color: #1c746c;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 p {
   font-size: 16px;
 }
@@ -144,6 +153,15 @@ p {
 .newbie-quote {
   padding-top: 75px !important;
   padding-bottom: 75px !important;
+}
+
+.newbie-quote h2 {
+  color: #1c746c;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .newbie-quote h3 {
@@ -429,14 +447,6 @@ footer .tsg-btn {
   color: #42C0B5;
 }
 
-h1, .newbie-quote h2 {
-  color: #1c746c;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 700;
-  font-size: 2.25rem;
-  text-align: center;
-  text-transform: uppercase;
-}
 
 /* Background styles */
 .for-employers, .index-for-candidates, .candidates-resume-reviews, .about-our-story {
