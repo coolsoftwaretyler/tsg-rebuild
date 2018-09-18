@@ -117,6 +117,10 @@ p {
 .candidates-hero-img p {
   font-size: 25px;
 }
+
+.candidates-services {
+  padding: 75px;
+}
 /* Footer styles */
 footer {
   width: 100%;
