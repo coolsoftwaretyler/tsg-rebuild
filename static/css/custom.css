@@ -50,6 +50,11 @@ p {
   font-weight: 600;
 }
 
+.index-diversity-lead p {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 /* For Employers Styles */
 .for-employers,
 .need-employees,
