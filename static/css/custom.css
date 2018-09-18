@@ -28,6 +28,42 @@ p {
   font-style: italic;
 }
 
+/* Custom buttons */
+.tsg-btn, .tsg-btn:hover {
+  border-width: 3px;
+  border-color: #42c0b5;
+  border-radius: 0px;
+  background-color: transparent;
+  color: #000;
+  text-transform: uppercase;
+}
+
+/* Navbar styles */
+.navbar-brand img {
+  max-width: 100%;
+}
+
+.navbar-brand {
+  max-width: 50%;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  text-transform: uppercase;
+}
+
+@media all and (min-width: 36rem) {
+  .navbar-brand img {
+    max-width: 25%;
+  }
+}
+
 /* Index styles */
 /* The hero image */
 .index-hero-img {
@@ -155,6 +191,9 @@ p {
 .we-know,
 .fast-and-reliable {
   padding-left: 60px !important;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
 }
 
 .for-employers-wrapper p {
@@ -272,6 +311,22 @@ p {
 }
 
 /* About styles */
+/* The hero image */
+.about-hero-img {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Place text in the middle of the image */
+.about-hero-text {
+  text-align: left;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: white;
+}
+
 .about-hero-img h1 {
   font-size: 60px;
   text-align: left !important;
@@ -303,6 +358,29 @@ p {
 
 .team-title-box {
   text-align: left;
+}
+
+/* Testimonials styles */
+.testimonials p {
+  font-size: 1rem;
+}
+
+.testimonials img {
+  border-radius: 50%;
+}
+
+.carousel-control-prev {
+  position: absolute;
+  bottom: 50;
+}
+
+.col-sm-2 img {
+  display: block;
+  margin: 0 auto;
+}
+
+.col-sm-10 h4 {
+  text-align: center;
 }
 
 /* Footer styles */
@@ -389,10 +467,7 @@ h1, .newbie-quote h2 {
 }
 
 /* Padding */
-.for-employers,
-.need-employees,
-.fast-and-reliable,
-.we-know,
+
 .index-for-candidates,
 .index-diversity-long,
 .index-diversity-lead,
@@ -412,65 +487,6 @@ h1, .newbie-quote h2 {
 .index-lead-text,
   {
   padding: 1.5em;
-}
-
-/* testimonials styles */
-.testimonials p {
-  font-size: 1rem;
-}
-
-.testimonials img {
-  border-radius: 50%;
-}
-
-.carousel-control-prev {
-  position: absolute;
-  bottom: 50;
-}
-
-.col-sm-2 img {
-  display: block;
-  margin: 0 auto;
-}
-
-.col-sm-10 h4 {
-  text-align: center;
-}
-
-/* Navbar styles */
-.navbar-brand img {
-  max-width: 100%;
-}
-
-.navbar-brand {
-  max-width: 50%;
-}
-
-.nav-link {
-  color: #000;
-  font-weight: 700;
-  font-size: 13px;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: #000;
-  text-transform: uppercase;
-}
-
-@media all and (min-width: 36rem) {
-  .navbar-brand img {
-    max-width: 25%;
-  }
-}
-
-/* Custom buttons */
-.tsg-btn, .tsg-btn:hover {
-  border-width: 3px;
-  border-color: #42c0b5;
-  border-radius: 0px;
-  background-color: transparent;
-  color: #000;
-  text-transform: uppercase;
 }
 
 .index-lead-text {
