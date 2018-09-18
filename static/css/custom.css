@@ -67,6 +67,14 @@ p {
   padding-bottom: 75px!important;
 }
 
+.newbie-quote h3 {
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 2px;
+}
 /* For Employers Styles */
 .for-employers,
 .need-employees,
@@ -144,13 +152,7 @@ h1, .newbie-quote h2 {
   text-transform: uppercase;
 }
 
-.newbie-quote h3 {
-  color: #fff;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 700;
-  font-size: 1.0625rem;
-  text-align: center;
-}
+
 
 /* Background styles */
 
