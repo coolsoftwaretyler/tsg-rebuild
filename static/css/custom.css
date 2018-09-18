@@ -168,6 +168,11 @@ p {
   text-align: center;
 }
 
+.about-lead-text button {
+  color: white;
+  border-color: white;
+}
+
 /* Footer styles */
 footer {
   width: 100%;
