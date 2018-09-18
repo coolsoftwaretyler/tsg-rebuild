@@ -129,12 +129,14 @@ p {
   object-fit: cover;
   width: 100%;
 }
+
 .index-lead-text p {
   padding: 75px;
 }
+
 .index-for-candidates,
 .index-diversity-long,
-.index-diversity-lead{
+.index-diversity-lead {
   padding: 1.5rem;
 }
 
@@ -149,6 +151,10 @@ p {
   text-transform: uppercase;
   color: #42c0B5;
   font-weight: 700;
+}
+
+.index-diversity-lead a {
+  color: #42c0B5;
 }
 
 .index-for-candidates {
