@@ -22,35 +22,16 @@
       grid-column: 7 / 13;
     }
   }
-
-  /* The hero image */
-
-  .about-hero-img {
-    position: relative;
-    object-fit: cover;
-    width: 100%;
-  }
-
-  /* Place text in the middle of the image */
-
-  .hero-text {
-    text-align: left;
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-    color: white;
-  }
 </style>
 </head>
 <body lang="en">
   {{ partial "nav.html" . }}
 
-
 <div class="grid">
 
   <div class="about-hero-img">
     <img src="img/about/hero-100.jpg" width="100%" />
-      <div class="hero-text">
+      <div class="about-hero-text">
         <h1 style="color:#42C0B5">ABOUT US</h1>
         <p>We care about the cannabis industry</p>
       </div>
