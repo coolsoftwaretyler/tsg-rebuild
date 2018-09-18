@@ -83,6 +83,11 @@ p {
 .index-what-makes-us-different h1 {
   text-align: left;
 }
+
+.index-what-makes-us-different p {
+  line-height: 1.3;
+  font-size: 19px;
+}
 /* For Employers Styles */
 .for-employers,
 .need-employees,
