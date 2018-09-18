@@ -181,6 +181,10 @@ p {
 .team-header {
   margin-top: 75px;
 }
+
+.team-title-box {
+  text-align: left;
+}
 /* Footer styles */
 footer {
   width: 100%;
@@ -360,7 +364,6 @@ h1, .newbie-quote h2 {
 .team-title-box {
   background-color: #42C0B5;
   color: white;
-  text-align: center;
   font-size: 30px;
   font-size: 1.875rem;
 }
