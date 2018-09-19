@@ -20,14 +20,6 @@ p {
   font-size: 16px;
 }
 
-.for-employers-wrapper p, .for-candidates p, .diversity-long p, .diversity-lead p, .big-text p {
-  text-align: left;
-}
-
-.for-employers-wrapper span, .for-candidates span {
-  text-align: left;
-}
-
 .fancy {
   font-family: 'Playfair Display', serif;
   font-style: italic;
