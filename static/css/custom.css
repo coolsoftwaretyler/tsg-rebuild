@@ -20,10 +20,6 @@ p {
   font-size: 16px;
 }
 
-.for-employers-wrapper h1, .for-candidates h1, .big-text h1 {
-  text-align: left;
-}
-
 .for-employers-wrapper p, .for-candidates p, .diversity-long p, .diversity-lead p, .big-text p {
   text-align: left;
 }
