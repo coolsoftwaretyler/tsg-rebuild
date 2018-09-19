@@ -316,6 +316,10 @@ p {
 }
 
 /* Candidates Styles */
+
+.candidates-hero-text h1, .candidates-get-involved h1 {
+  color:#42C0B5;
+}
 .candidates-services,
 .candidates-get-involved,
 .candidates-our-process,
