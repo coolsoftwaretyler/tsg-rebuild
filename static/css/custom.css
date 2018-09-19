@@ -387,6 +387,13 @@ p {
 }
 
 /* Employers Styles */
+
+.employers-we-ensure {
+  background-color: #42c0B5;
+}
+.employers-hero-text h1 {
+  color: #42C0B5;
+}
 .employers-services,
 .employers-we-ensure,
 .employers-diversity {
