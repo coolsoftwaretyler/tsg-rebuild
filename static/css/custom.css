@@ -300,7 +300,6 @@ p {
 .counter {
   display: inline;
   font-size: 50px;
-  width: 200px;
   vertical-align: middle;
 }
 
