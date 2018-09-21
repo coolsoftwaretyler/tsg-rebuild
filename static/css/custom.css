@@ -308,10 +308,7 @@ p {
 .need-employees,
 .we-know,
 .fast-and-reliable {
-  padding-left: 60px !important;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-right: 30px;
+  padding: 30px 30px 30px 60px;
 }
 
 .for-employers-wrapper p {
