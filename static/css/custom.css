@@ -201,10 +201,7 @@ p {
 }
 
 .index-lead-text h1 {
-  padding-top: 6.5rem;
-  padding-bottom: 6.5rem;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 6.5rem 100px;
 }
 
 .index-diversity-lead span {
