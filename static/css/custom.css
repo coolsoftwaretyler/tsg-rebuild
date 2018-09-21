@@ -33,7 +33,7 @@ p {
 }
 
 .text-light-green {
-    color: #42C0B5;
+  color: #42C0B5;
 }
 
 .bg-gray {
@@ -318,7 +318,6 @@ p {
 }
 
 /* Candidates Styles */
-
 .candidates-services,
 .candidates-get-involved,
 .candidates-our-process,
@@ -365,11 +364,6 @@ p {
 }
 
 /* Hero text */
-
-.candidates-hero-img h1 {
-  font-size: 60px;
-}
-
 .candidates-hero-img p {
   font-size: 25px;
 }
@@ -378,17 +372,9 @@ p {
   padding: 75px;
 }
 
-.candidates-services h1 {
-  margin-bottom: 0;
-}
-
 /* Employers Styles */
 .employers-we-ensure {
   background-color: #42c0B5;
-}
-
-.employers-hero-text h1 {
-  color: #42C0B5;
 }
 
 .employers-services,
@@ -418,29 +404,12 @@ p {
 }
 
 /* Hero text */
-.employers-hero-text h1 {
-  text-align: left !important;
-}
-
-.employers-hero-img h1 {
-  font-size: 60px;
-}
-
 .employers-hero-img p {
   font-size: 25px;
 }
 
-.employers-services h1 {
-  margin-bottom: 0;
-}
-
 .employers-services {
   padding: 75px;
-}
-
-.employers-diversity h1 {
-  font-size: 1.75rem;
-  text-align: left;
 }
 
 .employers-diversity {
@@ -448,18 +417,13 @@ p {
 }
 
 /* About styles */
-.about-hero-text h1 {
-  color: #42C0B5;
-}
+
 
 .about-lead-text,
 .about-our-story {
   padding: 1.5em;
 }
 
-.about-lead-text h1 {
-  color: #42C0B5;
-}
 
 /* Background styles */
 .about-lead-text {
@@ -484,11 +448,6 @@ p {
   bottom: 8px;
   right: 16px;
   color: white;
-}
-
-.about-hero-img h1 {
-  font-size: 60px;
-  text-align: left !important;
 }
 
 .about-hero-img p {
@@ -550,10 +509,6 @@ p {
 .col-sm-2 img {
   display: block;
   margin: 0 auto;
-}
-
-.col-sm-10 h4 {
-  text-align: center;
 }
 
 .testimonial_para {
