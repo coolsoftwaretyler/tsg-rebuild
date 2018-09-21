@@ -528,6 +528,8 @@ p {
   position: absolute;
   font-size: 18px;
   bottom: 0;
+  width: 75%;
+  padding: 5%;
 }
 
 .team-img-container {
