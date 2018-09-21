@@ -57,8 +57,12 @@ p {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
 
@@ -72,6 +76,9 @@ p {
   bottom: 0;
   background: #42C0B5;
   -webkit-transform: scaleX(0);
+  -moz-transform:scaleX(0);
+  -ms-transform:scaleX(0);
+  -o-transform:scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
   transform-origin: 0 50%;
@@ -325,10 +332,10 @@ p {
 }
 
 /* Candidates Styles */
-
 .candidates-hero-text h1, .candidates-get-involved h1 {
-  color:#42C0B5;
+  color: #42C0B5;
 }
+
 .candidates-services,
 .candidates-get-involved,
 .candidates-our-process,
@@ -396,13 +403,14 @@ p {
 }
 
 /* Employers Styles */
-
 .employers-we-ensure {
   background-color: #42c0B5;
 }
+
 .employers-hero-text h1 {
   color: #42C0B5;
 }
+
 .employers-services,
 .employers-we-ensure,
 .employers-diversity {
@@ -544,6 +552,7 @@ p {
 .team-img-container {
   position: relative;
 }
+
 /* Testimonials styles */
 .testimonials p {
   font-size: 1rem;
