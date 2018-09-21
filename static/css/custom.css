@@ -1,6 +1,6 @@
 /* Body styles */
 html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
 del, dfn, em, img, ins, kbd, q, samp,
 small, strong, sub, sup, var,
@@ -16,6 +16,7 @@ time, mark, audio, video {
 
 h1 {
   color: #1c746c;
+  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 700;
   font-size: 2.25rem;
   text-align: center;
@@ -29,6 +30,10 @@ p {
 .fancy {
   font-family: 'Playfair Display', serif;
   font-style: italic;
+}
+
+.text-light-green {
+    color: #42C0B5;
 }
 
 .bg-gray {
@@ -200,7 +205,7 @@ p {
   padding: 1.5rem;
 }
 
-.index-lead-text h1 {
+.index-lead-text {
   padding: 6.5rem 100px;
 }
 
@@ -225,14 +230,12 @@ p {
 }
 
 .index-diversity-lead p {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  padding-left: 60px !important;
+  padding: 60px 0 60px 60px;
   line-height: 1.75;
 }
 
 .index-diversity-long {
-  padding-right: 60px !important;
+  padding-right: 60px;
   font-size: 15px;
 }
 
@@ -241,38 +244,20 @@ p {
 }
 
 .newbie-quote {
-  padding-top: 75px !important;
-  padding-bottom: 75px !important;
+  padding: 75px;
 }
 
 .newbie-quote {
   background-color: #42c0b5;
-}
-
-.newbie-quote h2 {
   color: #1c746c;
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 700;
   font-size: 2.25rem;
   text-align: center;
   text-transform: uppercase;
 }
 
-.newbie-quote h3 {
-  color: #fff;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 500;
-  font-size: 13px;
-  text-align: center;
-  letter-spacing: 2px;
-}
-
 .index-what-makes-us-different {
   padding: 75px;
-}
-
-.index-what-makes-us-different h1 {
-  text-align: left;
 }
 
 .index-what-makes-us-different p {
@@ -315,10 +300,6 @@ p {
   font-size: 14px;
 }
 
-.for-employers h1 {
-  font-size: 1.75rem;
-}
-
 .for-employers button {
   font-size: 12px;
   font-weight: 600;
@@ -337,9 +318,6 @@ p {
 }
 
 /* Candidates Styles */
-.candidates-hero-text h1, .candidates-get-involved h1 {
-  color: #42C0B5;
-}
 
 .candidates-services,
 .candidates-get-involved,
@@ -387,9 +365,6 @@ p {
 }
 
 /* Hero text */
-.candidates-hero-text h1 {
-  text-align: left !important;
-}
 
 .candidates-hero-img h1 {
   font-size: 60px;
