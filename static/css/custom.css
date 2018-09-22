@@ -229,14 +229,14 @@ p {
   font-weight: 600;
 }
 
-.index-diversity-lead p {
-  padding: 60px 0 60px 60px;
+.index-diversity-lead  {
   line-height: 1.75;
+  padding: 60px;
 }
 
 .index-diversity-long {
-  padding-right: 60px;
   font-size: 15px;
+  padding: 60px;
 }
 
 .index-lead-text {
@@ -319,16 +319,16 @@ p {
 
 /* Candidates Styles */
 .candidates-services,
-.candidates-get-involved,
 .candidates-our-process,
 .candidates-openings,
 .candidates-resume-reviews,
 .candidates-application-form {
-  padding: 1.5rem;
+  padding: 60px;
 }
 
 .candidates-get-involved {
   background-color: #1C746C;
+  padding: 60px;
 }
 
 .candidates-resume-reviews {
@@ -375,10 +375,10 @@ p {
 /* Employers Styles */
 .employers-we-ensure {
   background-color: #42c0B5;
+  padding: 60px;
 }
 
 .employers-services,
-.employers-we-ensure,
 .employers-diversity {
   padding: 1.5rem;
 }
