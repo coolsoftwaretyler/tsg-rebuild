@@ -480,7 +480,8 @@ p {
   color: white;
   position: absolute;
   font-size: 18px;
-  bottom: 0;
+  bottom: 1px;
+  left: 2px;
   width: 75%;
   padding: 5%;
 }
