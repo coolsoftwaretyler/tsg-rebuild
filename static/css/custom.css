@@ -187,6 +187,10 @@ p {
   font-size: 14px;
 }
 
+.index-hero-button-text {
+  margin-top: 2px;
+}
+
 .index-hero-img-1-container,
 .index-hero-img-2-container,
 .index-hero-img-3-container {
