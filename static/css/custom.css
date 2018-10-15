@@ -199,6 +199,9 @@ p {
   width: 100%;
 }
 
+.index-lead-text p {
+  font-size: 30px;
+}
 
 .index-for-candidates,
 .index-diversity-long,
