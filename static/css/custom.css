@@ -300,6 +300,10 @@ p {
   padding: 30px 30px 30px 60px;
 }
 
+.for-employers {
+  padding-left: 90px;
+}
+
 .for-employers-wrapper p {
   font-size: 14px;
 }
