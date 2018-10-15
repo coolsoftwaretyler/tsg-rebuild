@@ -388,6 +388,15 @@ p {
   padding: 75px;
 }
 
+.candidates-our-process p {
+    font-size: 24px;
+}
+
+.candidates-openings p {
+  font-size: 24px;
+}
+
+
 /* Employers Styles */
 .employers-we-ensure {
   background-color: #42c0B5;
