@@ -1,5 +1,9 @@
 <!--  4 column row -->
 <style>
+  .special-grid {
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+  }
   .for-employers,
   .fast-and-reliable,
   .need-employees,
@@ -13,23 +17,23 @@
 
   @media all and (min-width: 75rem) {
     .for-employers {
-      grid-column: 1 / 7;
+      grid-column: 1 / 2;
     }
 
     .need-employees {
-      grid-column: 7 / 9;
+      grid-column: 2/3;
     }
 
     .we-know {
-      grid-column: 9 / 11;
+      grid-column: 3/4;
     }
 
     .fast-and-reliable {
-      grid-column: 11 / 13;
+      grid-column: 4/5;
     }
   }
 </style>
-<div class="for-employers-wrapper grid">
+<div class="for-employers-wrapper special-grid">
   <div class="for-employers">
     <span class="fancy">quality staffing</span>
     <h1 class="text-left">FOR EMPLOYERS</h1>
