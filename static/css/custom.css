@@ -539,6 +539,17 @@ p {
   padding: 1.5rem;
 }
 
+.testimonial_control {
+  float: right;
+  color: black;
+  margin: 5px;
+}
+
+.testimonial_control a {
+  color: black;
+  border: gray solid 1px;
+}
+
 /* Footer styles */
 footer {
   width: 100%;
