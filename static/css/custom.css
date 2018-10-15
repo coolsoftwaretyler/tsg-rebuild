@@ -238,9 +238,17 @@ p {
   padding: 60px;
 }
 
+.index-diversity-lead p {
+  font-size: 30px;
+}
+
 .index-diversity-long {
   font-size: 15px;
-  padding: 60px;
+  padding: 100px;
+}
+
+.index-diversity-long p {
+  font-size: 18px;
 }
 
 .index-lead-text {
