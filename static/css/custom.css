@@ -236,6 +236,7 @@ p {
 .index-for-candidates {
   border: solid white;
   background-color: #cccccc;
+  padding: 100px 12% 60px 12%;
 }
 
 .index-for-candidates button {
@@ -245,7 +246,7 @@ p {
 
 .index-diversity-lead  {
   line-height: 1.75;
-  padding: 60px;
+  padding: 125px 7% 100px 7%;
 }
 
 .index-diversity-lead p {
@@ -253,8 +254,8 @@ p {
 }
 
 .index-diversity-long {
-  font-size: 15px;
-  padding: 100px;
+  font-size: 18px;
+  padding: 125px 7% 100px 7%;
 }
 
 .index-diversity-long p {
