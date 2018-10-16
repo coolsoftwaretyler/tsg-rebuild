@@ -134,7 +134,7 @@ p {
 }
 
 .navbar-brand {
-  max-width: 50%;
+  width: 25%;
 }
 
 .nav-link {
@@ -150,7 +150,7 @@ p {
 
 @media all and (min-width: 36rem) {
   .navbar-brand img {
-    max-width: 25%;
+
   }
 }
 
