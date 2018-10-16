@@ -148,9 +148,19 @@ p {
   text-transform: uppercase;
 }
 
+.nav-item {
+  margin-right: 100px;
+}
+
 @media all and (min-width: 36rem) {
   .navbar-brand img {
 
+  }
+}
+
+@media all and (max-width: 778px){
+  .navbar-brand {
+    width: 50%;
   }
 }
 
