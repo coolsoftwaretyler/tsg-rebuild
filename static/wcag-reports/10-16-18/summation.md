@@ -16,8 +16,40 @@ This is not a correct parsing, the header in question is an h1 following only h1
 
 # Candidates
 
+## Check 117: i (italic) element used.
+
+These aren't italic elements, but rather valid icon tags.
+
+## Check 37: Header nesting - header following h1 is incorrect.
+
+This is not a correct parsing, the header in question is an h1 following only h1s.
+
 # Employers
+
+## Check 117: i (italic) element used.
+
+These aren't italic elements, but rather valid icon tags.
+
+## Check 37: Header nesting - header following h1 is incorrect.
+
+This is not a correct parsing, the header in question is an h1 following only h1s.
 
 # About
 
+## Check 117: i (italic) element used.
+
+These aren't italic elements, but rather valid icon tags.
+
+## Check 38: Header nesting - header following h2 is incorrect.
+
+This is not a correct parsing, the header in question is an h2 following only h1s.
+
 # Non Discrimination Policy
+
+## Check 117: i (italic) element used.
+
+These aren't italic elements, but rather valid icon tags.
+
+## Check 37: Header nesting - header following h1 is incorrect.
+
+This is not a correct parsing, the header in question is an h1 following only h1s.
