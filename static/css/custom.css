@@ -378,6 +378,13 @@ p {
   text-transform: uppercase;
 }
 
+@media all and (max-width: 500px) {
+  .candidates-hero-text h1,
+  .employers-hero-text h1 {
+    font-size: 60px !important;
+  }
+}
+
 .candidates-hero-btn {
   background-color: transparent;
   border-color: #42C0B5;
