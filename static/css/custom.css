@@ -519,6 +519,10 @@ p {
   padding: 5%;
 }
 
+.team-social a {
+  color: white;
+}
+
 .team-img-container {
   position: relative;
 }
