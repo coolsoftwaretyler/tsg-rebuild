@@ -563,7 +563,7 @@ footer {
 }
 
 footer {
-  padding: 1.5em;
+  padding: 40px 10% 0 10%;
 }
 
 footer ul {
@@ -572,12 +572,15 @@ footer ul {
 
 .footer-link {
   text-transform: uppercase;
+  padding-bottom: 40px;
 }
 
 .footer-link>a, .footer-social, .footer-social a {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
+  padding-bottom: 40px;
+  text-transform: uppercase;
 }
 
 .footer-right-column span {
