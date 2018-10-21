@@ -224,7 +224,7 @@ button {
 }
 
 .index-lead-text {
-  padding: 100px 15%;
+  padding: 10vh 15%;
 }
 
 .index-diversity-lead span {
@@ -240,7 +240,7 @@ button {
 .index-for-candidates {
   border: solid white;
   background-color: #cccccc;
-  padding: 100px 12% 60px 12%;
+  padding: 10vh 12% 6vh 12%;
 }
 
 .index-for-candidates button {
@@ -250,7 +250,7 @@ button {
 
 .index-diversity-lead  {
   line-height: 1.75;
-  padding: 125px 7% 100px 7%;
+  padding: 10vh 7% 10vh 7%;
 }
 
 .index-diversity-lead p {
@@ -259,7 +259,7 @@ button {
 
 .index-diversity-long {
   font-size: 18px;
-  padding: 125px 7% 100px 7%;
+  padding: 10vh 7% 10vh 7%;
 }
 
 .index-diversity-long p {
@@ -271,7 +271,7 @@ button {
 }
 
 .newbie-quote {
-  padding: 115px 20% 90px 20%;
+  padding: 10vh 20% 10vh 20%;
 }
 
 .newbie-quote {
@@ -284,7 +284,7 @@ button {
 }
 
 .index-what-makes-us-different {
-  padding: 150px 7% 150px 7%;
+  padding: 15vh 7% 15vh 7%;
 }
 
 .index-what-makes-us-different p {
@@ -320,7 +320,7 @@ button {
 .need-employees,
 .we-know,
 .fast-and-reliable {
-  padding: 80px 10%;
+  padding: 8vh 10%;
 }
 .for-employers-wrapper p {
   font-size: 18px;
@@ -359,7 +359,7 @@ button {
 
 .candidates-resume-reviews {
   background-color: #cccccc;
-  padding: 60px 7% 60px 7%;
+  padding: 6vh 7% 6vh 7%;
 }
 
 /* The hero image */
@@ -453,11 +453,11 @@ button {
 }
 
 .employers-services {
-  padding: 120px 20%;
+  padding: 10vh 20%;
 }
 
 .employers-diversity {
-  padding: 150px 7% 150px 7%;
+  padding: 15vh 7% 15vh 7%;
 }
 
 /* About styles */
