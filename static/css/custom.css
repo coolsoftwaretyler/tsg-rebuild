@@ -595,14 +595,14 @@ footer ul {
 
 .footer-link {
   text-transform: uppercase;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 .footer-link>a, .footer-social, .footer-social a {
   color: #fff;
   font-weight: 700;
   text-decoration: none;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
   text-transform: uppercase;
 }
 
