@@ -116,6 +116,10 @@ p {
   transform: scaleX(1);
 }
 
+button {
+  font-size: 14px !important;
+}
+
 /* Form styles */
 .form-control {
   background-color: #4D4D4D;
