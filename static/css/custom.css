@@ -369,8 +369,8 @@ p {
 .candidates-hero-text {
   text-align: left;
   position: absolute;
-  bottom: 8px;
-  right: 25px;
+  bottom: 50px;
+  right: 100px;
   color: white;
 }
 
@@ -433,8 +433,8 @@ p {
 .employers-hero-text {
   text-align: left;
   position: absolute;
-  bottom: 8px;
-  right: 25px;
+  bottom: 50px;
+  right: 100px;
   font-size: 92px !important;
   color: white;
 }
@@ -482,8 +482,8 @@ p {
 .about-hero-text {
   text-align: left;
   position: absolute;
-  bottom: 8px;
-  right: 16px;
+  bottom: 50px;
+  right: 100px;
   color: white;
 }
 
