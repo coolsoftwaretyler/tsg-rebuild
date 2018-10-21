@@ -292,6 +292,10 @@ button {
   font-size: 19px;
 }
 
+.index-instagram {
+  padding: 10%;
+}
+
 .ticker-wrapper {
   background-color: #f9fafc;
   padding-left: 15%;
