@@ -455,9 +455,33 @@ button {
 .candidates-hero-text {
   text-align: left;
   position: absolute;
-  bottom: 50px;
-  right: 100px;
+  /* bottom: 50px;
+  right: 100px; */
   color: white;
+}
+
+@media all and (max-width: 600px) {
+  .candidates-hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media all and (min-width: 601px) {
+  .candidates-hero-text {
+    bottom: 50px;
+    right: 100px;
+  }
+}
+
+@media all and (min-width: 1801px) {
+  .candidates-hero-text {
+    top: 50%;
+    left: 60%;
+  }
 }
 
 .candidates-hero-text p {
@@ -569,15 +593,42 @@ button {
   width: 100%;
 }
 
+
+
 /* Place text in the middle of the image */
 .employers-hero-text {
   text-align: left;
   position: absolute;
-  bottom: 50px;
-  right: 100px;
+  /* bottom: 50px;
+  right: 100px; */
   font-size: 92px !important;
   color: white;
 }
+
+@media all and (max-width: 600px) {
+  .employers-hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media all and (min-width: 601px) {
+  .employers-hero-text {
+    bottom: 50px;
+    right: 100px;
+  }
+}
+
+@media all and (min-width: 1801px) {
+  .employers-hero-text {
+    top: 50%;
+    left: 75%;
+  }
+}
+
 
 .employers-hero-text p {
   text-transform: uppercase;
@@ -649,9 +700,34 @@ button {
 .about-hero-text {
   text-align: left;
   position: absolute;
-  bottom: 50px;
-  right: 100px;
+  /* bottom: 50px;
+  right: 100px; */
   color: white;
+}
+
+@media all and (max-width: 600px) {
+  .about-hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media all and (min-width: 601px) {
+  .about-hero-text {
+    bottom: 50px;
+    right: 100px;
+  }
+}
+
+@media all and (min-width: 1801px) {
+  .about-hero-text {
+    top: 50%;
+    left: 75%;
+  }
 }
 
 .about-hero-img p {
