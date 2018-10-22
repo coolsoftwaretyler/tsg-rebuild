@@ -1,3 +1,23 @@
+/* Breakpoints, for reference
+
+@media all and (max-width: 600px) {
+
+}
+
+@media all and (min-width: 900px) {
+
+}
+
+@media all and (min-width: 1200px) {
+
+}
+
+@media all and (min-width: 1800px) {
+
+}
+
+*/
+
 /* Body styles */
 html, body, div, span, object, iframe,
 h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -167,8 +187,10 @@ button {
     width: 50%;
   }
 }
-
+/**************************************************/
 /* Index styles */
+
+/* Index hero styles */
 .index-hero-img {
   height: 672px;
   /* Position and center the image to scale nicely on all screens */
@@ -213,6 +235,8 @@ button {
   width: 100%;
 }
 
+/* Index lead text */
+
 .index-lead-text p {
   font-size: 30px;
 }
@@ -223,8 +247,28 @@ button {
   padding: 1.5rem;
 }
 
-.index-lead-text {
-  padding: 10vh 15%;
+@media all and (max-width: 600px) {
+  .index-lead-text {
+    padding: 5vh 10%;
+  }
+}
+
+@media all and (min-width: 900px) {
+  .index-lead-text {
+    padding: 5vh 10%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .index-lead-text {
+    padding: 5vh 15%;
+  }
+}
+
+@media all and (min-width: 1800px) {
+  .index-lead-text {
+    padding: 5vh 20%;
+  }
 }
 
 .index-diversity-lead span {
@@ -253,6 +297,13 @@ button {
   padding: 10vh 7% 10vh 7%;
 }
 
+@media all and (max-width: 600px) {
+  .index-diversity-lead  {
+    line-height: 1.75;
+    padding: 10vh 7% 0 7%;
+  }
+}
+
 .index-diversity-lead p {
   font-size: 30px;
 }
@@ -266,12 +317,25 @@ button {
   font-size: 18px;
 }
 
+@media all and (max-width: 600px) {
+  .index-diversity-long {
+    font-size: 18px;
+    padding: 2vh 7% 5vh 7%;
+  }
+}
+
 .index-lead-text {
   text-align: center;
 }
 
 .newbie-quote {
   padding: 10vh 20% 10vh 20%;
+}
+
+@media all and (max-width: 600px) {
+  .newbie-quote {
+    padding: 2vh 10% 2vh 10%;
+  }
 }
 
 .newbie-quote {
@@ -407,7 +471,13 @@ button {
 }
 
 .candidates-services {
-  padding: 75px;
+  padding: 100px 20%;
+}
+
+@media all and (max-width: 900px) {
+  .candidates-services {
+    padding: 5vh 10%;
+  }
 }
 
 .candidates-our-process p {
@@ -554,6 +624,14 @@ button {
 }
 
 /* Testimonials styles */
+
+@media all and (min-width: 900px) {
+  .testimonials {
+    padding: 0 20%;
+  }
+}
+
+
 .testimonials p {
   font-size: 1rem;
 }
