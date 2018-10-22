@@ -253,19 +253,13 @@ button {
   }
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 600px) {
   .index-lead-text {
     padding: 5vh 10%;
   }
 }
 
 @media all and (min-width: 1200px) {
-  .index-lead-text {
-    padding: 5vh 15%;
-  }
-}
-
-@media all and (min-width: 1800px) {
   .index-lead-text {
     padding: 5vh 20%;
   }
@@ -349,6 +343,13 @@ button {
 
 .index-what-makes-us-different {
   padding: 15vh 7% 15vh 7%;
+}
+
+@media all and (max-width: 600px) {
+  .index-what-makes-us-different {
+    padding: 5vh 7% 5vh 7%;
+  }
+
 }
 
 .index-what-makes-us-different p {
@@ -480,9 +481,51 @@ button {
   }
 }
 
+.candidates-get-involved {
+  padding: 100px 20%;
+}
+
+@media all and (max-width: 600px) {
+  .candidates-get-involved {
+    padding: 5vh 10%;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .candidates-get-involved {
+    padding: 5vh 5%;
+  }
+}
+
+
+@media all and (min-width: 900px) {
+  .candidates-get-involved {
+    padding: 100px 20%;
+  }
+}
+
 .candidates-our-process p {
     font-size: 24px;
 }
+
+@media all and (max-width: 600px) {
+  .candidates-our-process {
+    padding: 5vh 10% 0 10%;
+  }
+  .candidates-openings {
+    padding: 0 10%;
+  }
+}
+
+@media all and (min-width: 601px and max-width: 1200px) {
+  .candidates-our-process {
+    padding: 5vh 5% 5vh 5%;
+  }
+  .candidates-openings {
+    padding: 5vh 0;
+  }
+}
+
 
 .candidates-openings p {
   font-size: 24px;
@@ -533,6 +576,17 @@ button {
 .employers-diversity {
   padding: 15vh 7% 15vh 7%;
 }
+
+@media all and (max-width: 900px) {
+  .employers-services {
+    padding: 5vh 10%;
+  }
+}
+
+@media all and (min-width: 900px) {
+
+}
+
 
 /* About styles */
 .about-lead-text,
@@ -612,6 +666,7 @@ button {
   max-width:160px;
   height: 200px;
   overflow: hidden;
+  margin: 0 auto;
 }
 
 .crop img {
