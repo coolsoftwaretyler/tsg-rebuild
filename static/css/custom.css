@@ -332,6 +332,13 @@ button {
   }
 }
 
+@media all and (min-width: 601px) and (max-width: 900px) {
+  .newbie-quote {
+    padding: 2vh 5% 2vh 5% !important;
+  }
+}
+
+
 .newbie-quote {
   background-color: #42c0b5;
   color: #1c746c;
@@ -350,6 +357,12 @@ button {
     padding: 5vh 7% 5vh 7%;
   }
 
+}
+
+@media all and (min-width: 601px) and (max-width: 900px) {
+  .index-what-makes-us-different {
+    padding: 2vh 7% 2vh 7%;
+  }
 }
 
 .index-what-makes-us-different p {
@@ -485,8 +498,13 @@ button {
   padding: 100px 20%;
 }
 
+.candidates-our-process {
+
+}
+
 @media all and (max-width: 600px) {
-  .candidates-get-involved {
+  .candidates-get-involved,
+  .candidates-our-process {
     padding: 5vh 10%;
   }
 }
@@ -517,14 +535,15 @@ button {
   }
 }
 
-@media all and (min-width: 601px and max-width: 1200px) {
+@media all and (min-width: 601px) and (max-width: 1200px) {
   .candidates-our-process {
     padding: 5vh 5% 5vh 5%;
   }
   .candidates-openings {
-    padding: 5vh 0;
+    padding: 5vh 5% 5vh 5%;
   }
 }
+
 
 
 .candidates-openings p {
@@ -577,14 +596,30 @@ button {
   padding: 15vh 7% 15vh 7%;
 }
 
+.employers-we-ensure {
+  padding: 100px 20%;
+}
+
+@media all and (max-width: 600px) {
+  .employers-we-ensure {
+    padding: 5vh 10% ;
+  }
+
+  .employers-diversity {
+    padding: 5vh 7%;
+  }
+}
+
+@media all and (min-width: 601px) and (max-width: 900px) {
+  .employers-we-ensure {
+    padding: 2vh 5% ;
+  }
+}
+
 @media all and (max-width: 900px) {
   .employers-services {
     padding: 5vh 10%;
   }
-}
-
-@media all and (min-width: 900px) {
-
 }
 
 
@@ -637,6 +672,13 @@ button {
 .about-our-story {
   padding: 75px;
 }
+
+@media all and (max-width: 600px) {
+  .about-lead-text {
+    padding: 5vh 10%;
+  }
+}
+
 
 /* Meet the Team Styles */
 .team-header {

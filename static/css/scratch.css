@@ -2,18 +2,18 @@
 
 }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 601px) and (max-width: 900px) {
 
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 901px) and (max-width: 1200px) {
 
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 1201px) and (max-width: 1800px) {
 
 }
 
-@media all and (min-width: 1800px) {
+@media all and (min-width: 1801px) {
 
 }
