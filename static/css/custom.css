@@ -17,7 +17,6 @@
 }
 
 */
-
 /* Body styles */
 html, body, div, span, object, iframe,
 h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -176,20 +175,14 @@ button {
   margin-right: 100px;
 }
 
-@media all and (min-width: 36rem) {
-  .navbar-brand img {
-
-  }
-}
-
-@media all and (max-width: 778px){
+@media all and (max-width: 778px) {
   .navbar-brand {
     width: 50%;
   }
 }
+
 /**************************************************/
 /* Index styles */
-
 /* Index hero styles */
 .index-hero-img {
   height: 672px;
@@ -236,7 +229,6 @@ button {
 }
 
 /* Index lead text */
-
 .index-lead-text p {
   font-size: 30px;
 }
@@ -286,13 +278,13 @@ button {
   font-weight: 600;
 }
 
-.index-diversity-lead  {
+.index-diversity-lead {
   line-height: 1.75;
   padding: 10vh 7% 10vh 7%;
 }
 
 @media all and (max-width: 600px) {
-  .index-diversity-lead  {
+  .index-diversity-lead {
     line-height: 1.75;
     padding: 10vh 7% 0 7%;
   }
@@ -338,7 +330,6 @@ button {
   }
 }
 
-
 .newbie-quote {
   background-color: #42c0b5;
   color: #1c746c;
@@ -356,7 +347,6 @@ button {
   .index-what-makes-us-different {
     padding: 5vh 7% 5vh 7%;
   }
-
 }
 
 @media all and (min-width: 601px) and (max-width: 900px) {
@@ -378,7 +368,6 @@ button {
   background-color: #f9fafc;
   padding-left: 15%;
   padding-right: 15%;
-
 }
 
 .mk-font-icons {
@@ -404,6 +393,7 @@ button {
 .fast-and-reliable {
   padding: 8vh 10%;
 }
+
 .for-employers-wrapper p {
   font-size: 18px;
 }
@@ -489,6 +479,7 @@ button {
 }
 
 @media all and (max-width: 500px) {
+
   .candidates-hero-text h1,
   .employers-hero-text h1 {
     font-size: 60px !important;
@@ -522,11 +513,8 @@ button {
   padding: 100px 20%;
 }
 
-.candidates-our-process {
-
-}
-
 @media all and (max-width: 600px) {
+
   .candidates-get-involved,
   .candidates-our-process {
     padding: 5vh 10%;
@@ -539,7 +527,6 @@ button {
   }
 }
 
-
 @media all and (min-width: 900px) {
   .candidates-get-involved {
     padding: 100px 20%;
@@ -547,13 +534,14 @@ button {
 }
 
 .candidates-our-process p {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 @media all and (max-width: 600px) {
   .candidates-our-process {
     padding: 5vh 10% 0 10%;
   }
+
   .candidates-openings {
     padding: 0 10%;
   }
@@ -563,17 +551,15 @@ button {
   .candidates-our-process {
     padding: 5vh 5% 5vh 5%;
   }
+
   .candidates-openings {
     padding: 5vh 5% 5vh 5%;
   }
 }
 
-
-
 .candidates-openings p {
   font-size: 24px;
 }
-
 
 /* Employers Styles */
 .employers-we-ensure {
@@ -592,8 +578,6 @@ button {
   object-fit: cover;
   width: 100%;
 }
-
-
 
 /* Place text in the middle of the image */
 .employers-hero-text {
@@ -629,7 +613,6 @@ button {
   }
 }
 
-
 .employers-hero-text p {
   text-transform: uppercase;
 }
@@ -653,7 +636,7 @@ button {
 
 @media all and (max-width: 600px) {
   .employers-we-ensure {
-    padding: 5vh 10% ;
+    padding: 5vh 10%;
   }
 
   .employers-diversity {
@@ -663,7 +646,7 @@ button {
 
 @media all and (min-width: 601px) and (max-width: 900px) {
   .employers-we-ensure {
-    padding: 2vh 5% ;
+    padding: 2vh 5%;
   }
 }
 
@@ -672,7 +655,6 @@ button {
     padding: 5vh 10%;
   }
 }
-
 
 /* About styles */
 .about-lead-text,
@@ -755,7 +737,6 @@ button {
   }
 }
 
-
 /* Meet the Team Styles */
 .team-header {
   margin-top: 75px;
@@ -781,7 +762,7 @@ button {
 }
 
 .crop {
-  max-width:160px;
+  max-width: 160px;
   height: 200px;
   overflow: hidden;
   margin: 0 auto;
@@ -797,13 +778,11 @@ button {
 }
 
 /* Testimonials styles */
-
 @media all and (min-width: 900px) {
   .testimonials {
     padding: 0 20%;
   }
 }
-
 
 .testimonials p {
   font-size: 1rem;
