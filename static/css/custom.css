@@ -774,6 +774,19 @@ button {
   height: 200px;
 }
 
+@media all and (max-width: 767px) {
+  .crop {
+    max-width: 160px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .crop img {
+    width: 100%;
+    height: 50%;
+  }
+}
+
 .team-img-container {
   position: relative;
 }
