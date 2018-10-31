@@ -858,6 +858,7 @@ footer ul {
   text-transform: uppercase;
 }
 
+
 .footer-right-column span {
   color: #fff;
   font-weight: 700;
@@ -867,4 +868,20 @@ footer ul {
 footer .tsg-btn {
   border-color: #fff;
   color: #42C0B5;
+}
+
+.custom-underline {
+}
+
+.custom-underline:after {
+  content: '';
+  width: 0px;
+  height: 1px;
+  display: block;
+  background: #42c0b5;
+  transition: 300ms;
+}
+
+.custom-underline:hover:after {
+  width: 75%;
 }
