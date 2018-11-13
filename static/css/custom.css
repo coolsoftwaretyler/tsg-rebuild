@@ -888,3 +888,10 @@ footer .tsg-btn {
 .custom-underline:hover:after {
   width: 75%;
 }
+
+/* Bad Styles */
+@media all and (max-width: 900px){
+.quick-size-fix {
+font-size: 2rem;
+}
+}
