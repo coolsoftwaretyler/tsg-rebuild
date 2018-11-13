@@ -916,3 +916,18 @@ font-size: 2rem;
 .testimonial_control {
   margin-bottom: 10px;
 }
+
+/* Hero Image fixes */
+
+.employers-hero-img {
+  background-image: url('../img/employers/hero.jpg');
+  background-size: cover;
+  height: 671px;
+}
+
+@media all and (max-width: 768px) {
+  .employers-hero-img {
+    background-image: url('../img/employers/employers-mobile.png');
+    background-size: cover;
+  }
+}
