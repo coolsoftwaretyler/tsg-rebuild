@@ -781,6 +781,7 @@ button {
     max-width: 160px;
     overflow: hidden;
     margin: 0 auto;
+    margin-bottom: -148px;
   }
 
   .crop img {
