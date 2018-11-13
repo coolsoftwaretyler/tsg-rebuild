@@ -906,3 +906,9 @@ font-size: 2rem;
     padding-left: 0 !important;
   }
 }
+
+@media all and (max-width: 900px) {
+  .quick-16-px-fix {
+    font-size: 16px !important;
+  }
+}
