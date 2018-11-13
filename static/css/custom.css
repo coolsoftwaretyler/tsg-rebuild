@@ -912,3 +912,7 @@ font-size: 2rem;
     font-size: 16px !important;
   }
 }
+
+.testimonial_control {
+  margin-bottom: 10px;
+}
