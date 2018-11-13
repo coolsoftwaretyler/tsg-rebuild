@@ -895,3 +895,8 @@ footer .tsg-btn {
 font-size: 2rem;
 }
 }
+
+@media all and (max-width: 767px){
+  .quick-btn-fix{
+  width: 100% !important;}
+}
