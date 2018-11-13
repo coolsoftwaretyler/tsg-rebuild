@@ -900,3 +900,9 @@ font-size: 2rem;
   .quick-btn-fix{
   width: 100% !important;}
 }
+
+@media all and (max-width: 900px){
+  .quick-padding-fix {
+    padding-left: 0 !important;
+  }
+}
