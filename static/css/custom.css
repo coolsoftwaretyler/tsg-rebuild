@@ -1020,3 +1020,10 @@ footer .tsg-btn {
     background-size: cover;
   }
 }
+
+#instagram-embed-0,
+#instagram-embed-1,
+#instagram-embed-2,
+#instagram-embed-3 {
+  min-width: 0px !important;
+}
