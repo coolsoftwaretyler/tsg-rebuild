@@ -994,6 +994,8 @@ footer .tsg-btn {
 
 .about-hero-img {
   background-image: url("../img/about/hero-100.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
   height: 671px;
 }
@@ -1007,6 +1009,7 @@ footer .tsg-btn {
 
 .candidates-hero-img {
   background-image: url("../img/candidates/hero.jpg");
+
   background-size: cover;
   height: 671px;
 }
