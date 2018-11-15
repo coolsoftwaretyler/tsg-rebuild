@@ -999,8 +999,21 @@ footer .tsg-btn {
 }
 
 @media all and (max-width: 768px) {
-  .employers-hero-img {
+  .about-hero-img {
     background-image: url("../img/about/team-mobile.png");
+    background-size: cover;
+  }
+}
+
+.candidates-hero-img {
+  background-image: url("../img/candidates/hero.jpg");
+  background-size: cover;
+  height: 671px;
+}
+
+@media all and (max-width: 768px) {
+  .candidates-hero-img {
+    background-image: url("../img/candidates/candidates-mobile.png");
     background-size: cover;
   }
 }
