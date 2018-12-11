@@ -3,40 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tsg.netlify.com/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>https://tsg.netlify.com/about/</loc>
+    <loc>/about/</loc>
   </url>
   
   <url>
-    <loc>https://tsg.netlify.com/candidates/</loc>
+    <loc>/candidates/</loc>
   </url>
   
   <url>
-    <loc>https://tsg.netlify.com/employer-form/</loc>
+    <loc>/employer-form/</loc>
   </url>
   
   <url>
-    <loc>https://tsg.netlify.com/employers/</loc>
+    <loc>/employers/</loc>
   </url>
   
   <url>
-    <loc>https://tsg.netlify.com/non-discrimination-policy/</loc>
+    <loc>/non-discrimination-policy/</loc>
   </url>
   
   <url>
-    <loc>https://tsg.netlify.com/submit-resume/</loc>
+    <loc>/submit-resume/</loc>
   </url>
   
   <url>
-    <loc>https://tsg.netlify.com/categories/</loc>
+    <loc>/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://tsg.netlify.com/tags/</loc>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   

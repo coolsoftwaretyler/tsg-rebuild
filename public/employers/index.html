@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta name="robots" content="noindex">
@@ -8,14 +8,18 @@
 
   <meta charset="utf-8">
 
-  <base href="https://tsg.netlify.com">
+  <base href="/">
   <title> THC Staffing Group | The Revolution is Hiring </title>
 
-  <link rel="canonical" href="https://tsg.netlify.com/employers/"> 
-  <link href="https://tsg.netlify.com/employers/index.xml" rel="alternate" type="application/rss+xml" title="" />
-   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-   <link rel="stylesheet" type="text/css" href="css/custom.css">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="canonical" href="/employers/"> 
+  <link href="/employers/index.xml" rel="alternate" type="application/rss+xml" title="" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+  <link href="css/aos.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="icon" type="image/png" href="/favicon.png">
 
 
 <style>
@@ -35,8 +39,8 @@
 </head>
 <body lang="en">
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="navbar-brand"><a href="/"><img src ="img/thc-staffing-logo.png" /></a></div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-gray">
+    <div class="navbar-brand"><a href="/"><img alt="THC Staffing Group Brand Image. Links to home page" src ="img/thc-staffing-logo.png" /></a></div>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -57,33 +61,32 @@
 
 <div class="grid">
 
-  <div class="employers-hero-img">
-    <img src="img/employers/hero.jpg" width="100%">
+  <div class="employers-hero-img" data-aos="fade-up">
     <div class="employers-hero-text">
-      <h1 style="color:#42C0B5">EMPLOYERS</h1>
+      <h1 class="text-light-green text-left" style="font-size: 92px; line-height: .75;">EMPLOYERS</h1>
       <p>We are your recruitment team</p>
     </div>
   </div>
 
-  <div class="employers-services">
-    <h1>OUR SERVICES</h1>
-    <p style="font-size: 22px; text-align: center;">Staffing any job can be a time-consuming project</p>
-    <p style="text-align: center;">Advertising, recruiting, sorting through hundreds of applications to select a few candidates for interviews, and selecting the best fit for your company; it takes away time and attention you’d be better off spending on other parts of your business.
+  <div class="employers-services" data-aos="fade-up">
+    <h1 class="mb-0">OUR SERVICES</h1>
+    <p class="text-center"style="font-size: 22px;">Staffing any job can be a time-consuming project</p>
+    <p class="text-center" style="font-size:20px;">Advertising, recruiting, sorting through hundreds of applications to select a few candidates for interviews, and selecting the best fit for your company; it takes away time and attention you’d be better off spending on other parts of your business.
       And in the cannabis industry, the process is made even more difficult by the limited number of experienced candidates and the complex regulations and required background checks. By working with our firm, you’ll not only save time and effort, you
       can also rest assured that you will be presented with highly qualified, skilled and motivated candidates. We are dedicated to providing you with the exceptional candidates you need for your company to thrive and grow.</p>
   </div>
 
-  <div class="employers-we-ensure" style="background-color: #42c0B5; text-align: center;">
-    <h1 style="text-align: center;">WE ENSURE THAT THE CANDIDATES WE RECOMMEND ARE THE PERFECT MATCH BY TAKING TIME TO UNDERSTAND YOUR COMPANY’S CULTURE AND VALUES</h1>
-    <a href="/employer-form" style="color: #fff; font-weight: bold; text-decoration: none;">HOW CAN WE HELP? ></a>
+  <div class="employers-we-ensure text-center" data-aos="fade-up">
+    <h1 class="text-center quick-size-fix">WE ENSURE THAT THE CANDIDATES WE RECOMMEND ARE THE PERFECT MATCH BY TAKING TIME TO UNDERSTAND YOUR COMPANY’S CULTURE AND VALUES</h1>
+    <a href="/employer-form" class="text-white text-center" style="font-weight: bold; text-decoration: none;">HOW CAN WE HELP? ></a>
   </div>
 
-  <div class="employers-stock-img-1">
-    <img src="img/employers/diversity.jpg" style="width:100%" />
+  <div class="employers-stock-img-1" data-aos="fade-up">
+    <img alt=" " src="img/banner-2.jpg" style="width:100%" />
   </div>
 
-  <div class="employers-diversity">
-    <h1>Why does diversity matter?</h1>
+  <div class="employers-diversity" data-aos="fade-up">
+    <h1 class="text-left">Why does diversity matter?</h1>
     <p>Diversity is far more than just a moral issue. It’s a business necessity for any company in the 21st century — especially for cannabis businesses, which face opportunities and challenges unlike any other industry. It’s no secret that the medical and
       legal cannabis industries are highly scrutinized. This scrutiny extends to the diversity of the staff of prospective businesses. Several of the most recent states to create a competitive cannabis dispensary application process have requested information
       about the diversity of the applicants.</p>
@@ -97,6 +100,10 @@
 
 
 <style>
+  .special-grid {
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+  }
   .for-employers,
   .fast-and-reliable,
   .need-employees,
@@ -110,54 +117,55 @@
 
   @media all and (min-width: 75rem) {
     .for-employers {
-      grid-column: 1 / 7;
+      grid-column: 1 / 2;
+      padding-left: 20%;
     }
 
     .need-employees {
-      grid-column: 7 / 9;
+      grid-column: 2/3;
     }
 
     .we-know {
-      grid-column: 9 / 11;
+      grid-column: 3/4;
     }
 
     .fast-and-reliable {
-      grid-column: 11 / 13;
+      grid-column: 4/5;
     }
   }
 </style>
-<div class="for-employers-wrapper grid">
-  <div class="for-employers">
+<div class="for-employers-wrapper special-grid">
+  <div class="for-employers" data-aos="fade-up">
     <span class="fancy">quality staffing</span>
-    <h1>FOR EMPLOYERS</h1>
+    <h1 class="text-left">FOR EMPLOYERS</h1>
     <p>
       We recruit staff at all levels, from entry-level to executive and management level to board members, and we help a wide range of businesses in the industry: cannabis dispensaries and stores, cultivation centers, ancillary businesses that serve the cannabis
       industry, and nonprofit organizations focused on drug policy. We’ll use our network, developed with more than a decade in the industry, to find you the right candidate.
     </p>
-    <a href="/employer-form"><button type="button" class="btn btn-primary tsg-btn">Fill a position</button></a>
+    <a href="/employer-form"><button type="button" class="btn btn-primary tsg-btn hvr-sweep-to-right">Fill a position</button></a>
   </div>
 
-  <div class="need-employees">
+  <div class="need-employees" data-aos="fade-up">
     <span><strong>WHAT WE DO BEST</strong></span>
     <p>We connect you with candidates who are loyal and ethical; who want to be part of sustainable and socially-responsible organizations. Many people we've placed have grown into more specialized roles and are contributing to the industry's progress
       at-large.
     </p>
   </div>
 
-  <div class="we-know">
+  <div class="we-know" data-aos="fade-up">
     <span><strong>WE KNOW PEOPLE</strong></span>
     <p>With our long-standing, excellent reputations in the marijuana industry and movement, we know the best people to fit your needs. Let us help you in your search.</p>
   </div>
 
-  <div class="fast-and-reliable">
+  <div class="fast-and-reliable" data-aos="fade-up">
     <span><strong>FAST AND RELIABLE SERVICE</strong></span>
-    <p>We connect you with candidates who are loyal and ethical; who want to be part of sustainable and socially-responsible organiza- tions. Many people we've placed have grown into more specialized roles and are contributing to the industry's progress
+    <p>We connect you with candidates who are loyal and ethical; who want to be part of sustainable and socially-responsible organizations. Many people we've placed have grown into more specialized roles and are contributing to the industry's progress
       at-large
     </p>
   </div>
 </div>
 
-<div class="testimonials">
+<div class="testimonials" data-aos="fade-up">
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -168,11 +176,11 @@
             for making that happen! I can’t thank you enough!</p><br>
           <div class="row" style="margin: 0 auto; width: 100%">
             <div class="col-sm-2">
-              <img src="img/testimonials/katssdpboard-300x200-150x150.jpeg" class="img-responsive" style="width: 80px; display: block; margin: 0 auto" alt=" ">
+              <img alt=" " src="img/testimonials/katssdpboard-300x200-150x150.jpeg" class="img-responsive" style="width: 100%; max-width: 150px; display: block; margin: 0 auto" alt=" ">
             </div>
-            <div class="col-sm-10">
-              <h4><strong>Kat Humphries</strong></h4>
-              <p class="testimonial_subtitle" style="text-align: center"><span>Legal Assistant at Vicente Sederberg</span><br>
+            <div class="col-lg-10">
+              <p ><strong>Kat Humphries</strong></p>
+              <p class="testimonial_subtitle" ><span>Legal Assistant at Vicente Sederberg</span><br>
               </p>
             </div>
           </div>
@@ -186,11 +194,11 @@
             She is organized, efficient and a problem solver. It is my honor to recommend her services, and I have no doubt that those who take advantage of her offerings will be pleased with the services and results that they receive.</p><br>
           <div class="row" style="margin: 0 auto; width: 100%">
             <div class="col-sm-2">
-              <img src="img/testimonials/chris2013-150x150.jpg" class="img-responsive" style="max-width:100%" alt=" ">
+              <img alt=" " src="img/testimonials/chris2013-150x150.jpg" class="img-responsive" style="width:100%;max-width:100px" alt=" ">
             </div>
-            <div class="col-sm-10">
-              <h4><strong>Chris Conrad</strong></h4>
-              <p class="testimonial_subtitle" style="text-align: center"><span>Court Qualified Cannabis Expert Witness / Consultant</span><br>
+            <div class="col-lg-10">
+              <p class=""><strong>Chris Conrad</strong></p>
+              <p class="testimonial_subtitle"><span>Court Qualified Cannabis Expert Witness / Consultant</span><br>
               </p>
             </div>
           </div>
@@ -202,11 +210,11 @@
           <p class="testimonial_para">Thanks to Shaleen’s recruiting efforts, we were able to bring in high-quality, diverse candidates who were a great fit for our firm.</p><br>
           <div class="row" style="margin: 0 auto; width: 100%">
             <div class="col-sm-2">
-              <img src="img/testimonials/Brian_Vicente_4312-e1414718789679-150x150.jpg" class="img-responsive" style="max-width:100%" alt=" ">
+              <img alt=" " src="img/testimonials/Brian_Vicente_4312-e1414718789679-150x150.jpg" class="img-responsive" style="width:100%;max-width:100px" alt=" ">
             </div>
-            <div class="col-sm-10">
-              <h4><strong>Brian Vicente</strong></h4>
-              <p class="testimonial_subtitle" style="text-align: center"><span>Partner, Vicente Sederberg, LLC</span><br>
+            <div class="col-lg-10">
+              <p><strong>Brian Vicente</strong></p>
+              <p class="testimonial_subtitle" ><span>Partner, Vicente Sederberg, LLC</span><br>
               </p>
             </div>
           </div>
@@ -221,11 +229,11 @@
             to wake up every morning and work at a job in which I absolutely believe and love.  I will be forever grateful to Shaleen for my new career and many of the friends whom I’ve met along the way.</p><br>
           <div class="row" style="margin: 0 auto; width: 100%">
             <div class="col-sm-2">
-              <img src="img/testimonials/9e087e3d-6f7a-4607-98de-556e0047ce94_zps48bb3345-150x150.jpg" class="img-responsive" style="max-width:100%" alt=" ">
+              <img alt=" " src="img/testimonials/9e087e3d-6f7a-4607-98de-556e0047ce94_zps48bb3345-150x150.jpg" class="img-responsive" style="width:100%;max-width:100px" alt=" ">
             </div>
-            <div class="col-sm-10">
-              <h4><strong>Lindsay Akin</strong></h4>
-              <p class="testimonial_subtitle" style="text-align: center"><span>Assistant Speakers Bureau Director at Law Enforcement Against Prohibition</span><br>
+            <div class="col-lg-10">
+              <p><strong>Lindsay Akin</strong></p>
+              <p class="testimonial_subtitle" ><span>Assistant Speakers Bureau Director at Law Enforcement Against Prohibition</span><br>
               </p>
             </div>
           </div>
@@ -240,11 +248,11 @@
             conveyed a message and spread quickly. It was the first video we posted, and at 61,995 views, it is our most-viewed video to date.</p><br>
           <div class="row" style="margin: 0 auto; width: 100%">
             <div class="col-sm-2">
-              <img src="img/testimonials/ChrisWallis-150x150.jpg" class="img-responsive" style="max-width:100%" alt=" ">
+              <img alt=" " src="img/testimonials/ChrisWallis-150x150.jpg" class="img-responsive" style="width: 100%; max-width:100px" alt=" ">
             </div>
-            <div class="col-sm-10">
-              <h4><strong>Chris Wallis</strong></h4>
-              <p class="testimonial_subtitle" style="text-align: center"><span>Side Pocket Images</span><br>
+            <div class="col-lg-10">
+              <p ><strong>Chris Wallis</strong></p>
+              <p class="testimonial_subtitle"><span>Side Pocket Images</span><br>
               </p>
             </div>
           </div>
@@ -257,11 +265,11 @@
             mind, and reminds us that this isn't a movement only "by and about" white men. And personally, without her advice, I would have never been able to "come out" to my pretty traditional Chinese family about a cause I am passionate about.</p><br>
           <div class="row" style="margin: 0 auto; width: 100%">
             <div class="col-sm-2">
-              <img src="img/testimonials/0cd544f-e1415126196231-150x150.jpg" class="img-responsive" style="max-width:100%" alt=" ">
+              <img alt=" " src="img/testimonials/0cd544f-e1415126196231-150x150.jpg" class="img-responsive" style="width:100%;max-width:100px" alt=" ">
             </div>
-            <div class="col-sm-10">
-              <h4><strong>Rachelle Yeung</strong></h4>
-              <p class="testimonial_subtitle" style="text-align: center"><span>Marijuana Policy Project</span><br>
+            <div class="col-lg-10">
+              <p><strong>Rachelle Yeung</strong></p>
+              <p class="testimonial_subtitle"><span>Marijuana Policy Project</span><br>
               </p>
             </div>
           </div>
@@ -275,11 +283,11 @@
             enables her to know the many facets of the cannabis industry as well as the activist side of things.</p><br>
           <div class="row" style="margin: 0 auto; width: 100%">
             <div class="col-sm-2">
-              <img src="img/testimonials/mikki13trinity-150x150.jpg" class="img-responsive" style="max-width:100%" alt=" ">
+              <img alt=" " src="img/testimonials/mikki13trinity-150x150.jpg" class="img-responsive" style="width:100%;max-width:100px" alt=" ">
             </div>
-            <div class="col-sm-10">
-              <h4><strong>Mikki Norris, M.A.</strong></h4>
-              <p class="testimonial_subtitle" style="text-align: center"><span>Director, Cannabis Consumers Campaign</span><br>
+            <div class="col-lg-10">
+              <p ><strong>Mikki Norris, M.A.</strong></p>
+              <p class="testimonial_subtitle" ><span>Director, Cannabis Consumers Campaign</span><br>
               </p>
             </div>
           </div>
@@ -294,11 +302,11 @@
             for our Denver business, but for those of our clients around the country.</p><br>
           <div class="row" style="margin: 0 auto; width: 100%">
             <div class="col-sm-2">
-              <img src="img/testimonials/kayvan-fi2_sq-150x150.jpg" class="img-responsive" style="max-width:100%" alt=" ">
+              <img alt=" " src="img/testimonials/kayvan-fi2_sq-150x150.jpg" class="img-responsive" style="width:100%;max-width:100px" alt=" ">
             </div>
-            <div class="col-sm-10">
-              <h4><strong>Kayvan Khalatbari</strong></h4>
-              <p class="testimonial_subtitle" style="text-align: center"><span>Denver Relief</span><br>
+            <div class="col-lg-10">
+              <p><strong>Kayvan Khalatbari</strong></p>
+              <p class="testimonial_subtitle"><span>Denver Relief</span><br>
               </p>
             </div>
           </div>
@@ -312,11 +320,11 @@
             in. I am so grateful for Danielle and Shaleen for changing my life.</p><br>
           <div class="row" style="margin: 0 auto; width: 100%">
             <div class="col-sm-2">
-              <img src="img/testimonials/laurenwatson.jpg" class="img-responsive" style="max-width:100%" alt=" ">
+              <img alt=" " src="img/testimonials/laurenwatson.jpg" class="img-responsive" style="width:100%;max-width:100px" alt=" ">
             </div>
-            <div class="col-sm-10">
-              <h4><strong>Lauren Watson</strong></h4>
-              <p class="testimonial_subtitle" style="text-align: center"><span>Director of Marketing, Berkeley Patients Group</span><br>
+            <div class="col-lg-10">
+              <p><strong>Lauren Watson</strong></p>
+              <p class="testimonial_subtitle"><span>Director of Marketing, Berkeley Patients Group</span><br>
               </p>
             </div>
           </div>
@@ -325,8 +333,8 @@
     </div>
   </div>
   <div class="controls testimonial_control pull-right">
-    <a class="left fa fa-chevron-left btn btn-default testimonial_btn" href="#carousel-example-generic" data-slide="prev"></a>
-    <a class="right fa fa-chevron-right btn btn-default testimonial_btn" href="#carousel-example-generic" data-slide="next"></a>
+    <a class="left fa fa-chevron-left btn btn-default testimonial_btn" href="#carousel-example-generic" data-slide="prev" title="Next testimonial slide"></a>
+    <a class="right fa fa-chevron-right btn btn-default testimonial_btn" href="#carousel-example-generic" data-slide="next" title="Previous testimonial slide"></a>
   </div>
 </div>
  <style>
@@ -359,11 +367,11 @@
   
   <div class="footer-left-column">
     <ul style="padding-left:0px">
-      <li class="footer-link"><a href="/employers">Employers</a></li>
-      <li class="footer-link"><a href="/candidates">Candidates</a></li>
-      <li class="footer-link"><a href="/about">About</a></li>
-      <li class="footer-link"><a href="/non-discrimination-policy" style="color:#000">*SEE OUR NON-DISCRIMINATION POLICY</a></li>
-
+      <li class="footer-link custom-underline"><a href="/employers">Employers</a></li>
+      <li class="footer-link custom-underline"><a href="/candidates">Candidates</a></li>
+      <li class="footer-link custom-underline"><a href="/about">About</a></li>
+      <li class="footer-link custom-underline"><a href="/non-discrimination-policy" style="color:#000">*SEE OUR NON-DISCRIMINATION POLICY</a></li>
+      <li class="footer-link text-white">© THC Staffing Group, LLP. All rights reserved</li>
     </ul>
     <h6>
     </h6>
@@ -371,29 +379,27 @@
 
   <div class="footer-middle-column">
     <ul style="padding-left:0px">
-      <span class="footer-social">Follow us on social media</span>
-      <li class="footer-social"><a href="https://www.facebook.coma/THCStaffing/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
-      <li class="footer-social"><a href="https://www.instagram.com/thcstaffing/"><i class="fab fa-instagram"></i> Instagram</a></li>
-      <li class="footer-social"><a href="https://twitter.com/thcstaffing"><i class="fab fa-twitter"></i> Twitter</a></li>
-      <li class="footer-social"><a href="https://www.linkedin.com/company/thc-staffing-group/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+      <li class="footer-social custom-underline"><a href="https://www.facebook.coma/THCStaffing/"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+      <li class="footer-social custom-underline"><a href="https://www.instagram.com/thcstaffing/"><i class="fab fa-instagram"></i> Instagram</a></li>
+      <li class="footer-social custom-underline"><a href="https://twitter.com/thcstaffing"><i class="fab fa-twitter"></i> Twitter</a></li>
+      <li class="footer-social custom-underline"><a href="https://www.linkedin.com/company/thc-staffing-group/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
     </ul>
   </div>
 
   <div class="footer-right-column">
     
-  <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-  <style type="text/css">
-  	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
-  	 
-  </style>
   <div id="mc_embed_signup">
   <form action="https://thcstaffinggroup.us15.list-manage.com/subscribe/post?u=7611b5f602627c6d75863c998&amp;id=011f6c715c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div id="mc_embed_signup_scroll">
-  	<label for="mce-EMAIL">Subscribe to our mailing list</label>
-  	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+  	<label for="mce-EMAIL" class="text-white">Subscribe to our mailing list</label>
+  	<input type="email" value="" name="EMAIL" class="email form-control mb-1" id="mce-EMAIL" placeholder="email address" required>
       
-      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7611b5f602627c6d75863c998_011f6c715c" tabindex="-1" value=""></div>
-      <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <label for="hidden-field">Hidden field - do not fill</label>
+        <input id="hidden-field" type="text" name="b_7611b5f602627c6d75863c998_011f6c715c" tabindex="-1" value="" >
+      </div>
+      <br>
+      <div class="clear" style="margin-bottom: 10px"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary tsg-btn hvr-sweep-to-right" style="font-size: 14px;"></div>
       </div>
   </form>
   </div>
@@ -403,10 +409,15 @@
   
 </footer>
 
+<script src="js/aos.js"></script>
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
 <script src="js/bootstrap.min.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
