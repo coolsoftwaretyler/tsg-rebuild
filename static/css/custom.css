@@ -542,6 +542,7 @@ button {
 }
 
 @media all and (max-width: 500px) {
+
   .candidates-hero-text h1,
   .employers-hero-text h1 {
     font-size: 60px !important;
@@ -576,6 +577,7 @@ button {
 }
 
 @media all and (max-width: 600px) {
+
   .candidates-get-involved,
   .candidates-our-process {
     padding: 5vh 10%;
@@ -829,6 +831,11 @@ button {
   text-align: left;
 }
 
+.about__staff__team {
+  background: #ccc;
+  padding: 75px;
+}
+
 .founder {
   box-sizing: border-box;
   display: flex;
@@ -841,8 +848,27 @@ button {
 .founder img {
   box-shadow: 15px 15px #ccc;
   margin: 2em;
+  margin-top: 0;
   max-width: 100%;
   width: 500px;
+}
+
+.headshots {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headshots img {
+  margin: 1em 1em 0 1em;
+}
+
+.staff__bio:before {
+  top: -15px;
+  right: 50px;
+  bottom: auto;
+  left: auto;
+  border-width: 0 15px 15px;
+  border-color: #ccc transparent;
 }
 
 /* Meet the Team Styles */
@@ -958,7 +984,7 @@ footer ul {
   padding-bottom: 10px;
 }
 
-.footer-link > a,
+.footer-link>a,
 .footer-social,
 .footer-social a {
   color: #fff;
@@ -979,8 +1005,7 @@ footer .tsg-btn {
   color: #42c0b5;
 }
 
-.custom-underline {
-}
+.custom-underline {}
 
 .custom-underline:after {
   content: "";
