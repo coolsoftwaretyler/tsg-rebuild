@@ -29,6 +29,12 @@
     var richardHeadshot = document.getElementById("richardHeadshot");
     var tiffanyHeadshot = document.getElementById("tiffanyHeadshot");
 
+    var clearActiveHeadshots = function() {
+        jesseHeadshot.parentElement.classList.remove("active");
+        kcHeadshot.parentElement.classList.remove("active");
+        richardHeadshot.parentElement.classList.remove("active");
+        tiffanyHeadshot.parentElement.classList.remove("active");
+    }
     var swapBio = function(staffer) {
         name.innerText = staffer.name;
         pronouns.innerText = staffer.pronouns;
@@ -36,19 +42,28 @@
     }
     var selectStaffer = function (target) {
         var selectedStaffer = target.dataset.staffer;
+
         switch (selectedStaffer) {
             case "jesse":
                 swapBio(jesse);
-                break;
+                clearActiveHeadshots();
+                jesseHeadshot.parentElement.classList.add("active");
+                return;
             case "kc":
                 swapBio(kc);
-                break;
+                clearActiveHeadshots();
+                kcHeadshot.parentElement.classList.add("active");
+                return;
             case "richard":
                 swapBio(richard);
-                break;
+                clearActiveHeadshots();
+                richardHeadshot.parentElement.classList.add("active");
+                return;
             case "tiffany":
                 swapBio(tiffany);
-                break;
+                clearActiveHeadshots();
+                tiffanyHeadshot.parentElement.classList.add("active");
+                return;
         }
     }
 

@@ -858,17 +858,33 @@ button {
   justify-content: space-between;
 }
 
-.headshots img {
+.headshot {
   margin: 1em 1em 0 1em;
+  position: relative;
+  width: 20%;
 }
 
-.staff__bio:before {
-  top: -15px;
-  right: 50px;
-  bottom: auto;
-  left: auto;
-  border-width: 0 15px 15px;
-  border-color: #ccc transparent;
+.headshot.active:after {
+  border-bottom: 20px solid #ccc;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 0;
+  position: absolute;
+  right: 10%;
+  width: 0;
+}
+
+.headshot img {
+  height: 100%;
+  width: 100%;
+}
+
+
+.staff__bio {
+  margin: 2em 0;
 }
 
 /* Meet the Team Styles */
