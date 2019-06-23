@@ -1,6 +1,6 @@
 (function () {
     var jesse = {
-        name: 'Jesse Stoute',
+        name: 'Jesse Stout',
         pronouns: 'He/Him/His',
         bio: 'Jesse is passionate about reducing the harms of incarceration. Previously, Jesse advocated for criminal justice reform as Policy Director of the nonprofit Legal Services for Prisoners with Children. A graduate of Brown University and UC Hastings College of the Law, he helped start the Students for Sensible Drug Policy chapters at both schools. He has received awards including the Daily Journal CLAY Award (2016), SF Human Rights Commission HERO Award for Organizations Advancing Civil Rights (2014), SF Board of Supervisors Certificate of Honor (2014), the NORML Student Activist Award (2010), and the High Times Freedom Fighter of the Month Award (2007). Jesse practices business law with Greenbridge Corporate Counsel, and is based in San Francisco.'
     }
@@ -19,4 +19,50 @@
         pronouns: 'She/Her/Hers',
         bio: "Tiffany helps cannabis businesses find diverse talent as a recruiter for THC Staffing Group. She works with a variety of companies and candidates from across the country. A former associate director of employer relations at the Sloan School of Management at Massachusetts Institute of Technology, she has 20 years of experience in recruiting, marketing and operations. Tiffany is a volunteer with Women Grow Boston, a networking organization for women in the cannabis industry. She holds a BS in Business Administration from UNC-Chapel Hill and an MBA from Simmons School of Management. She is based in the Boston area."
     }
+
+    var name = document.getElementById("staffName");
+    var pronouns = document.getElementById("staffPronouns");
+    var bio = document.getElementById("staffBio");
+
+    var jesseHeadshot = document.getElementById("jesseHeadshot");
+    var kcHeadshot = document.getElementById("kcHeadshot");
+    var richardHeadshot = document.getElementById("richardHeadshot");
+    var tiffanyHeadshot = document.getElementById("tiffanyHeadshot");
+
+    var swapBio = function(staffer) {
+        name.innerText = staffer.name;
+        pronouns.innerText = staffer.pronouns;
+        bio.innerText = staffer.bio;
+    }
+    var selectStaffer = function (target) {
+        var selectedStaffer = target.dataset.staffer;
+        switch (selectedStaffer) {
+            case "jesse":
+                swapBio(jesse);
+                break;
+            case "kc":
+                swapBio(kc);
+                break;
+            case "richard":
+                swapBio(richard);
+                break;
+            case "tiffany":
+                swapBio(tiffany);
+                break;
+        }
+    }
+
+    jesseHeadshot.addEventListener("click", function (e) {
+        selectStaffer(e.target);
+    });
+    kcHeadshot.addEventListener("click", function (e) {
+        selectStaffer(e.target);
+    });
+    richardHeadshot.addEventListener("click", function (e) {
+        selectStaffer(e.target);
+    });
+    tiffanyHeadshot.addEventListener("click", function (e) {
+        selectStaffer(e.target);
+    });
+
 })();

@@ -106,13 +106,13 @@
     <div class="about__staff__team">
       <h1 style="text-align: left;">The team</h1>
       <div class="headshots">
-        <img alt=" " src="img/about/jesse-headshot.jpg" style="width:100%">
-        <img alt=" " src="img/about/kc.jpg" style="width:100%">
-        <img alt=" " src="img/about/richard-headshot.jpg" style="width:100%">
-        <img alt=" " src="img/about/tiffany-headshot.jpg" style="width:100%">
+        <img id="jesseHeadshot" alt=" " src="img/about/jesse-headshot.jpg" style="width:100%" data-staffer="jesse">
+        <img id="kcHeadshot" alt=" " src="img/about/kc.jpg" style="width:100%" data-staffer="kc">
+        <img id="richardHeadshot" alt=" " src="img/about/richard-headshot.jpg" style="width:100%" data-staffer="richard">
+        <img id="tiffanyHeadshot" alt=" " src="img/about/tiffany-headshot.jpg" style="width:100%" data-staffer="tiffany">
       </div>
       <div class="staff__bio">
-        <h1 id="staffName">Jesse Stout</h1>
+        <h1 id="staffName" style="text-align: left;">Jesse Stout</h1>
         <p id="staffPronouns">He/Him/His</p>
         <p id="staffBio">
           Jesse is passionate about reducing the harms of incarceration. Previously, Jesse advocated for criminal
@@ -127,4 +127,5 @@
       </div>
     </div>
   </div>
+  <script src="js/staffBios.js"></script>
   {{ partial "footer.html" . }}
