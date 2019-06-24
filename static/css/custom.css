@@ -855,6 +855,7 @@ button {
 
 .headshots {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -884,7 +885,25 @@ button {
 
 
 .staff__bio {
-  margin: 2em 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 4em 0;
+}
+
+.staff__bio__left {
+  width: 30%;
+}
+
+.staff__bio__right {
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  .staff__bio__left,
+  .staff__bio__right {
+    width: 100%;
+  }
 }
 
 /* Meet the Team Styles */
