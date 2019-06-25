@@ -542,6 +542,7 @@ button {
 }
 
 @media all and (max-width: 500px) {
+
   .candidates-hero-text h1,
   .employers-hero-text h1 {
     font-size: 60px !important;
@@ -576,6 +577,7 @@ button {
 }
 
 @media all and (max-width: 600px) {
+
   .candidates-get-involved,
   .candidates-our-process {
     padding: 5vh 10%;
@@ -798,6 +800,145 @@ button {
   }
 }
 
+/* Updated style's for Marwa's tweaks in June 2019 */
+.about__staff {
+  display: grid;
+  padding: 75px;
+}
+
+@media (max-width: 600px) {
+  .about__staff {
+    padding: 2em;
+  }
+}
+
+.about__staff__founders {
+  box-sizing: border-box;
+  grid-column: 1 / -1;
+}
+
+.about__staff__founders .bio {
+  width: 50%;
+}
+
+@media (max-width: 1270px) {
+  .about__staff__founders .bio {
+    width: 100%;
+  }
+}
+
+.about__staff__founders h1 {
+  text-align: left;
+}
+
+.about__staff__team {
+  background: #e5e5e5;
+  padding: 75px;
+}
+
+@media (max-width: 600px) {
+  .about__staff__team {
+    padding: 75px 0 0 0;
+  }
+
+  .about__staff__team > h1 {
+    margin-left: 64px;
+  }
+}
+
+.founder {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 75px 0;
+  width: 100%;
+}
+
+.founder img {
+  box-shadow: 15px 15px #ccc;
+  margin: 2em;
+  margin-top: 0;
+  max-width: 100%;
+  width: 500px;
+}
+
+.headshots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* margin: 0 -1em; */
+}
+
+.headshot {
+  margin: 1em 0 0 0;
+  position: relative;
+  width: 20%;
+}
+
+@media (max-width: 600px) {
+  .headshot {
+    width: 25%;
+  }
+
+  .headshot.active:after {
+    border-bottom: 10px solid #ccc;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+}
+
+.headshot.active:after {
+  border-bottom: 25px solid #ccc;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 0;
+  position: absolute;
+  right: 10%;
+  width: 0;
+}
+
+@media (max-width: 600px) {
+
+  .headshot.active:after {
+    border-bottom: 10px solid #ccc;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+}
+
+.headshot img {
+  height: 100%;
+  width: 100%;
+}
+
+/* e5e5e5 */
+.staff__bio {
+  background-color: #ccc;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4em;
+}
+
+.staff__bio__left {
+  width: 30%;
+}
+
+.staff__bio__right {
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  .staff__bio__left,
+  .staff__bio__right {
+    width: 100%;
+  }
+}
+
 /* Meet the Team Styles */
 .team-header {
   margin-top: 75px;
@@ -911,7 +1052,7 @@ footer ul {
   padding-bottom: 10px;
 }
 
-.footer-link > a,
+.footer-link>a,
 .footer-social,
 .footer-social a {
   color: #fff;
@@ -932,8 +1073,7 @@ footer .tsg-btn {
   color: #42c0b5;
 }
 
-.custom-underline {
-}
+.custom-underline {}
 
 .custom-underline:after {
   content: "";
