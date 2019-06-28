@@ -872,8 +872,18 @@ button {
 
 .headshot {
   margin: 1em 0 0 0;
+  overflow: hidden;
   position: relative;
   width: 20%;
+}
+
+.headshot img {
+  transition: all 0.3s ease-in-out;
+
+}
+
+.headshot img:hover {
+  transform: scale(1.1);
 }
 
 @media (max-width: 600px) {
