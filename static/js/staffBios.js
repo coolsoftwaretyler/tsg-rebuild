@@ -11,7 +11,7 @@
     }
     var richard = {
         name: 'Richard Juang',
-        pronouns: 'He/Him/His',
+        pronouns: '',
         bio: "Richard M. Juang, Esq. is THC Staffing Group's new Diversity and Inclusion Consultant. Richard is the principal attorney for the Law Office of Richard M. Juang where he advises nonprofits, small businesses, and individual clients on employment, business transactions, and regulatory compliance. In the cannabis sector, Richard drafted the Minority Cannabis Business Association model state legislation for cannabis legalization. He also served the Massachusetts Cannabis Control Commission as a contract attorney for writing the state's licensing regulations. For other sectors, he has worked on a wide range of matters involving the intersection of law, diversity and inclusion, and socioeconomic justice including environmental justice legislation and regulations, transgender civil rights, and HIV/AIDS care. Richard is admitted to practice in the Commonwealth of Massachusetts and is a graduate of Northeastern University. Richard lives in South Hadley, Massachusetts."
     }
     var tiffany = {
