@@ -857,6 +857,7 @@ button {
 
 .founder img {
   box-shadow: 15px 15px #ccc;
+  height: 100%;
   margin: 2em;
   margin-top: 0;
   max-width: 100%;
