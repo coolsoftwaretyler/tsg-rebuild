@@ -4,11 +4,6 @@
         pronouns: 'He/Him/His',
         bio: 'Jesse is passionate about reducing the harms of incarceration. Previously, Jesse advocated for criminal justice reform as Policy Director of the nonprofit Legal Services for Prisoners with Children. A graduate of Brown University and UC Hastings College of the Law, he helped start the Students for Sensible Drug Policy chapters at both schools. He has received awards including the Daily Journal CLAY Award (2016), SF Human Rights Commission HERO Award for Organizations Advancing Civil Rights (2014), SF Board of Supervisors Certificate of Honor (2014), the NORML Student Activist Award (2010), and the High Times Freedom Fighter of the Month Award (2007). Jesse practices business law with Greenbridge Corporate Counsel, and is based in San Francisco.'
     }
-    var kc = {
-        name: 'KC Klens',
-        pronouns: 'They/Them/Theirs, He/Him/His',
-        bio: "KC’s interests primarily lie in the natural sciences, social and drug policy reform, producing art, youth political involvement, and LGBTQIA* communities’ issues.In addition to earning their Bachelor’s degree in Biology, KC has volunteered throughout their undergraduate experience as an officer and president of both the Queer- Straight Alliance and Students for Sensible Drug Policy chapter at Eckerd College.Passionate about how cannabis has improved their life, KC became THC Staffing Group’s first intern and continues the work for minority involvement of all kinds in the cannabis industry, particularly in Florida."
-    }
     var richard = {
         name: 'Richard Juang',
         pronouns: '',
@@ -25,13 +20,11 @@
     var bio = document.getElementById("staffBio");
 
     var jesseHeadshot = document.getElementById("jesseHeadshot");
-    var kcHeadshot = document.getElementById("kcHeadshot");
     var richardHeadshot = document.getElementById("richardHeadshot");
     var tiffanyHeadshot = document.getElementById("tiffanyHeadshot");
 
     var clearActiveHeadshots = function() {
         jesseHeadshot.parentElement.classList.remove("active");
-        kcHeadshot.parentElement.classList.remove("active");
         richardHeadshot.parentElement.classList.remove("active");
         tiffanyHeadshot.parentElement.classList.remove("active");
     }
@@ -49,11 +42,6 @@
                 clearActiveHeadshots();
                 jesseHeadshot.parentElement.classList.add("active");
                 return;
-            case "kc":
-                swapBio(kc);
-                clearActiveHeadshots();
-                kcHeadshot.parentElement.classList.add("active");
-                return;
             case "richard":
                 swapBio(richard);
                 clearActiveHeadshots();
@@ -68,9 +56,6 @@
     }
 
     jesseHeadshot.addEventListener("click", function (e) {
-        selectStaffer(e.target);
-    });
-    kcHeadshot.addEventListener("click", function (e) {
         selectStaffer(e.target);
     });
     richardHeadshot.addEventListener("click", function (e) {

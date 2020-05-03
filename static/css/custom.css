@@ -542,7 +542,6 @@ button {
 }
 
 @media all and (max-width: 500px) {
-
   .candidates-hero-text h1,
   .employers-hero-text h1 {
     font-size: 60px !important;
@@ -577,7 +576,6 @@ button {
 }
 
 @media all and (max-width: 600px) {
-
   .candidates-get-involved,
   .candidates-our-process {
     padding: 5vh 10%;
@@ -912,7 +910,6 @@ button {
 }
 
 @media (max-width: 600px) {
-
   .headshot.active:after {
     border-bottom: 10px solid #ccc;
     border-left: 10px solid transparent;
@@ -1062,7 +1059,7 @@ footer ul {
   padding-bottom: 10px;
 }
 
-.footer-link>a,
+.footer-link > a,
 .footer-social,
 .footer-social a {
   color: #fff;
@@ -1083,7 +1080,8 @@ footer .tsg-btn {
   color: #42c0b5;
 }
 
-.custom-underline {}
+.custom-underline {
+}
 
 .custom-underline:after {
   content: "";
@@ -1145,21 +1143,22 @@ footer .tsg-btn {
 .about-hero-img {
   background-image: url("../img/about/hero-100.jpg");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-position: top;
+  background-size: contain;
+  background-color: #319966;
   height: 671px;
 }
 
 @media all and (max-width: 768px) {
   .about-hero-img {
-    background-image: url("../img/about/team-mobile.png");
-    background-size: cover;
+    background-image: url("../img/about/hero-100.jpg");
+    background-size: contain;
+    background-position: top;
   }
 }
 
 .candidates-hero-img {
   background-image: url("../img/candidates/hero.jpg");
-
   background-size: cover;
   height: 671px;
 }
