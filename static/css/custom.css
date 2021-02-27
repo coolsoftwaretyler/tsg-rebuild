@@ -436,8 +436,7 @@ button {
   width: 50px;
 }
 
-.icon-align-center,
-.mk-milestone {
+.icon-align-center {
   margin: 0 auto;
   text-align: center;
 }
